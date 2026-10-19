@@ -1,0 +1,11 @@
+MIGA AHORRA — PARA PUBLICAR CON REGISTRO DESDE EL PRIMER DÍA
+
+1) EXTRAER este ZIP; subir ARCHIVOS EXTRAIDOS al repositorio PRIVADO de GitHub.
+2) Railway: proyecto desde GitHub; volumen /data; dominio HTTPS.
+3) Brevo: registrar/validar miga.ahorra@gmail.com como remitente; crear API key; configurarla como MIGA_BREVO_API_KEY en Railway. NUNCA copiar contraseña de Gmail ni clave API a GitHub.
+4) Variables de Railway: MIGA_ENV=production, MIGA_DATA_DIR=/data, MIGA_PUBLIC_URL=https://DOMINIO-REAL, MIGA_CONTACT_EMAIL=miga.ahorra@gmail.com, MIGA_EMAIL_FROM=miga.ahorra@gmail.com, MIGA_PUBLIC_REGISTRATION=1.
+5) Revisar privacidad/aviso legal y completar titular REAL; después MIGA_LEGAL_REVIEWED=1.
+6) CONFIGURAR backups de Railway. PROBAR un registro y correo de confirmación con OTRA DIRECCIÓN.
+
+El registro queda BLOQUEADO mientras no estén configurados el correo y la privacidad.
+Leer README.md antes de activar usuarios públicos. No contiene contraseñas ni datos de usuarios.

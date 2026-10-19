@@ -1,0 +1,2312 @@
+[
+  {
+    "id": 1,
+    "title": "Curry cremoso de garbanzos",
+    "description": "Especiado, saciante y preparado con básicos de despensa.",
+    "category": "vegana",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 440,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "sin lácteos"
+    ],
+    "photo": "assets/foto-01.webp",
+    "fallback": "assets/receta-01.svg",
+    "ingredients": [
+      {
+        "id": "garbanzos",
+        "qty": 300.0
+      },
+      {
+        "id": "arroz",
+        "qty": 150.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 220.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 100.0
+      },
+      {
+        "id": "ajo",
+        "qty": 8.0
+      },
+      {
+        "id": "curry",
+        "qty": 6.0
+      },
+      {
+        "id": "aceite",
+        "qty": 15.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Lava el arroz y cuécelo en agua con una pizca de sal durante unos 16 minutos.",
+      "Pica la cebolla y el ajo; sofríelos 5 minutos con el aceite.",
+      "Incorpora el curry y el tomate triturado; mezcla 3 minutos.",
+      "Añade los garbanzos escurridos y cocina 8 minutos a fuego medio.",
+      "Sirve el curry junto al arroz y ajusta de sal."
+    ],
+    "videoSearch": "Curry cremoso de garbanzos receta fácil paso a paso",
+    "videoId": "yUMIrNXK6GY",
+    "videoTitle": "Curry de garbanzos y arroz · Lidl España",
+    "videoNote": "La demostración lleva también bebida de coco y verduras que no aparecen en esta versión económica.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Usa el doble de agua que de arroz; debe quedar tierno y sin agua sobrante."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Mueve la cebolla hasta que esté transparente, sin dejar que el ajo se queme."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Remueve el curry unos segundos para que suelte el aroma; evita fuego fuerte."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Si la salsa espesa demasiado, añade un chorrito de agua y remueve."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Sirve el arroz a un lado y el curry al otro, o mézclalos en el plato."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lentejas guisadas ligeras",
+    "description": "El clásico de cuchara, sin embutidos y listo en media hora.",
+    "category": "vegana",
+    "minutes": 28,
+    "servings": 2,
+    "kcal": 340,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "de cuchara"
+    ],
+    "photo": "assets/foto-02.webp",
+    "fallback": "assets/receta-02.svg",
+    "ingredients": [
+      {
+        "id": "lentejas",
+        "qty": 380.0
+      },
+      {
+        "id": "patata",
+        "qty": 220.0
+      },
+      {
+        "id": "zanahoria",
+        "qty": 180.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 90.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 160.0
+      },
+      {
+        "id": "aceite",
+        "qty": 12.0
+      },
+      {
+        "id": "pimenton",
+        "qty": 5.0
+      },
+      {
+        "id": "caldo",
+        "qty": 400.0
+      }
+    ],
+    "steps": [
+      "Pela y corta la patata y la zanahoria en cubos pequeños.",
+      "Sofríe la cebolla picada con el aceite durante 4 minutos.",
+      "Añade el pimentón, el tomate y las verduras; remueve.",
+      "Vierte el caldo y cocina 15 minutos hasta ablandar la patata.",
+      "Incorpora las lentejas escurridas y calienta 5 minutos más."
+    ],
+    "videoSearch": "Lentejas guisadas ligeras receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Haz los trozos de patata de unos 2 cm para que se hagan por igual."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Remueve a menudo: la cebolla debe ablandarse y no tostarse."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Retira un instante del fuego al añadir pimentón para que no amargue."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Pincha un trozo de patata con un tenedor: debe entrar sin resistencia."
+      },
+      {
+        "needs": "Colador, agua y recipiente limpio",
+        "tip": "Si te gustan más espesas, aplasta unos trozos de patata dentro del guiso."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Chili suave de alubias",
+    "description": "Un plato económico con mucho sabor y proteínas vegetales.",
+    "category": "vegana",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 410,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "para táper"
+    ],
+    "photo": "assets/foto-03.webp",
+    "fallback": "assets/receta-03.svg",
+    "ingredients": [
+      {
+        "id": "alubias",
+        "qty": 350.0
+      },
+      {
+        "id": "arroz",
+        "qty": 140.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 230.0
+      },
+      {
+        "id": "pimiento",
+        "qty": 160.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 100.0
+      },
+      {
+        "id": "comino",
+        "qty": 4.0
+      },
+      {
+        "id": "aceite",
+        "qty": 12.0
+      }
+    ],
+    "steps": [
+      "Cuece el arroz siguiendo el tiempo del envase.",
+      "Pica cebolla y pimiento en dados pequeños.",
+      "Sofríe las verduras 7 minutos con el aceite.",
+      "Agrega tomate y comino, y cocina 5 minutos.",
+      "Añade las alubias escurridas, calienta 5 minutos y sirve con arroz."
+    ],
+    "videoSearch": "Chili suave de alubias receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Utiliza aproximadamente dos partes de agua por una de arroz."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Deja todos los trozos de tamaño parecido para que se cocinen a la vez."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "La cebolla debe quedar blanda y el pimiento ligeramente dorado."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Remueve el fondo de la sartén para que el tomate no se pegue."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Escurre las alubias antes de añadirlas y prueba el punto de sal."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ensalada templada de garbanzos",
+    "description": "Fresca, rápida y con ingredientes de siempre.",
+    "category": "vegana",
+    "minutes": 15,
+    "servings": 2,
+    "kcal": 310,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "sin horno"
+    ],
+    "photo": "assets/foto-04.webp",
+    "fallback": "assets/receta-04.svg",
+    "ingredients": [
+      {
+        "id": "garbanzos",
+        "qty": 360.0
+      },
+      {
+        "id": "tomate",
+        "qty": 220.0
+      },
+      {
+        "id": "pepino",
+        "qty": 170.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 60.0
+      },
+      {
+        "id": "limon",
+        "qty": 70.0
+      },
+      {
+        "id": "aceite",
+        "qty": 18.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Escurre y aclara los garbanzos.",
+      "Corta el tomate, el pepino y la cebolla en dados finos.",
+      "Saltea los garbanzos 3 minutos para templarlos si lo prefieres.",
+      "Mezcla el aceite con el zumo del limón y una pizca de sal.",
+      "Combina todos los ingredientes y aliña justo antes de servir."
+    ],
+    "videoSearch": "Ensalada templada de garbanzos receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Colador, agua y recipiente limpio",
+        "tip": "Pásalos bajo agua fría para quitar el líquido del bote y escúrrelos."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Corta dados pequeños para que cada cucharada tenga un poco de todo."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Usa una sartén caliente, sin dorarlos en exceso."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Bate con un tenedor hasta que aceite y limón se mezclen bien."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Mezcla con suavidad para no romper los garbanzos."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Arroz salteado con verduras",
+    "description": "Aprovecha lo que tienes en la nevera.",
+    "category": "vegana",
+    "minutes": 20,
+    "servings": 2,
+    "kcal": 320,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "aprovechamiento"
+    ],
+    "photo": "assets/foto-05.webp",
+    "fallback": "assets/receta-05.svg",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "qty": 160.0
+      },
+      {
+        "id": "zanahoria",
+        "qty": 160.0
+      },
+      {
+        "id": "calabacin",
+        "qty": 230.0
+      },
+      {
+        "id": "guisantes",
+        "qty": 140.0
+      },
+      {
+        "id": "ajo",
+        "qty": 7.0
+      },
+      {
+        "id": "aceite",
+        "qty": 15.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Cuece el arroz, escúrrelo y déjalo reposar unos minutos.",
+      "Pela y corta la zanahoria y el calabacín en trozos pequeños.",
+      "Saltea ajo y zanahoria 4 minutos con el aceite.",
+      "Incorpora calabacín y guisantes; cocina otros 6 minutos.",
+      "Agrega arroz, remueve a fuego fuerte 2 minutos y sirve."
+    ],
+    "videoSearch": "Arroz salteado con verduras receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "No lo dejes demasiado blando: después volverá a pasar por la sartén."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Haz cubos de tamaño parecido y deja las verduras listas antes de encender el fuego."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "El ajo debe oler bien, pero no ponerse oscuro."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Las verduras deben quedar hechas, aunque ligeramente firmes."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Saltea sin dejar de mover para que el arroz no se pegue."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Crema de zanahoria y patata",
+    "description": "Suave, reconfortante y perfecta para cenar barato.",
+    "category": "vegana",
+    "minutes": 30,
+    "servings": 2,
+    "kcal": 265,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegano",
+      "de cuchara"
+    ],
+    "photo": "assets/foto-06.webp",
+    "fallback": "assets/receta-06.svg",
+    "ingredients": [
+      {
+        "id": "zanahoria",
+        "qty": 440.0
+      },
+      {
+        "id": "patata",
+        "qty": 300.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 100.0
+      },
+      {
+        "id": "caldo",
+        "qty": 550.0
+      },
+      {
+        "id": "aceite",
+        "qty": 16.0
+      },
+      {
+        "id": "pimienta",
+        "qty": 1.0
+      }
+    ],
+    "steps": [
+      "Corta zanahoria, patata y cebolla en piezas regulares.",
+      "Sofríe la cebolla con aceite 4 minutos.",
+      "Añade zanahoria y patata; mezcla 2 minutos.",
+      "Cubre con caldo y cuece 18 minutos hasta que todo esté tierno.",
+      "Tritura hasta conseguir una crema fina y añade pimienta al gusto."
+    ],
+    "videoSearch": "Crema de zanahoria y patata receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Corta las hortalizas del mismo tamaño para cocerlas a la vez."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Deja que la cebolla se ablande sin quemarla."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Remueve para cubrir los trozos con el aceite y potenciar el sabor."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Comprueba con un tenedor que la zanahoria se pueda atravesar fácilmente."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Si queda muy espesa, añade un poco de agua caliente antes de servir."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Tortilla de patatas al horno",
+    "description": "Con menos aceite, pero el sabor de siempre.",
+    "category": "sin-gluten",
+    "minutes": 35,
+    "servings": 2,
+    "kcal": 345,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegetariano",
+      "horno"
+    ],
+    "photo": "assets/foto-07.webp",
+    "fallback": "assets/receta-07.svg",
+    "ingredients": [
+      {
+        "id": "patata",
+        "qty": 450.0
+      },
+      {
+        "id": "huevos",
+        "qty": 4.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 130.0
+      },
+      {
+        "id": "aceite",
+        "qty": 22.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Precalienta el horno a 190 °C.",
+      "Corta patatas y cebolla en láminas finas.",
+      "Mezcla con aceite, hornea 20 minutos removiendo una vez.",
+      "Bate los huevos con sal e incorpora patatas y cebolla cocinadas.",
+      "Vierte en un molde apto y hornea 10–12 minutos hasta cuajar."
+    ],
+    "videoSearch": "Tortilla de patatas al horno receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Pon la rejilla a media altura y prepara una fuente apta para horno."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Cuanto más finas las rodajas, antes se cocinarán."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Dales la vuelta a mitad de tiempo para que se hagan por ambos lados."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Deja templar las patatas antes de echarlas al huevo, así no se cuaja de golpe."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Pincha el centro con un cuchillo: si sale casi limpio, está lista."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Arroz a la cubana casero",
+    "description": "Tomate, arroz y huevo: barato y delicioso.",
+    "category": "sin-gluten",
+    "minutes": 22,
+    "servings": 2,
+    "kcal": 480,
+    "difficulty": "Fácil",
+    "tags": [
+      "sin trigo",
+      "clásico"
+    ],
+    "photo": "assets/foto-08.webp",
+    "fallback": "assets/receta-08.svg",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "qty": 170.0
+      },
+      {
+        "id": "huevos",
+        "qty": 2.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 220.0
+      },
+      {
+        "id": "ajo",
+        "qty": 5.0
+      },
+      {
+        "id": "aceite",
+        "qty": 16.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Cuece el arroz en agua con sal hasta que esté tierno.",
+      "Sofríe el ajo picado con la mitad del aceite.",
+      "Añade el tomate y cocina 8 minutos a fuego suave.",
+      "Cocina los huevos a la plancha con el resto del aceite.",
+      "Sirve el arroz con tomate caliente y un huevo por ración."
+    ],
+    "videoSearch": "Arroz a la cubana casero receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Remueve una vez para evitar que se pegue al fondo."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Solo unos segundos, hasta que el ajo empiece a desprender aroma."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Deja que la salsa reduzca y espese antes de apagar."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Cuaja la clara completamente; deja la yema al gusto."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Distribuye el tomate por encima para que el arroz quede jugoso."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Pollo al limón con arroz",
+    "description": "Una comida completa y sencilla para toda la semana.",
+    "category": "sin-gluten",
+    "minutes": 28,
+    "servings": 2,
+    "kcal": 470,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteico",
+      "táper"
+    ],
+    "photo": "assets/foto-09.webp",
+    "fallback": "assets/receta-09.svg",
+    "ingredients": [
+      {
+        "id": "pollo",
+        "qty": 350.0
+      },
+      {
+        "id": "arroz",
+        "qty": 150.0
+      },
+      {
+        "id": "limon",
+        "qty": 90.0
+      },
+      {
+        "id": "ajo",
+        "qty": 8.0
+      },
+      {
+        "id": "aceite",
+        "qty": 18.0
+      },
+      {
+        "id": "pimienta",
+        "qty": 2.0
+      },
+      {
+        "id": "sal",
+        "qty": 3.0
+      }
+    ],
+    "steps": [
+      "Cuece el arroz con agua y sal.",
+      "Corta el pollo en tiras y salpimenta ligeramente.",
+      "Saltea el pollo en una sartén con aceite 6–8 minutos, hasta cocerlo bien.",
+      "Incorpora el ajo, el zumo de limón y 3 cucharadas de agua.",
+      "Reduce 2 minutos y acompaña con el arroz."
+    ],
+    "videoSearch": "Pollo al limón con arroz receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Reserva el arroz tapado mientras haces el pollo."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Usa una tabla distinta de la de verduras y lava manos y utensilios después."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "No debe quedar ninguna parte rosada; mejor verificar 74 °C en el centro."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Remueve el fondo de la sartén y deja que el limón forme una salsa ligera."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Prueba antes de añadir más sal; añade un poco de agua si queda seco."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Patatas rellenas de atún",
+    "description": "Con pocos ingredientes y un toque de gratinado.",
+    "category": "sin-gluten",
+    "minutes": 40,
+    "servings": 2,
+    "kcal": 440,
+    "difficulty": "Fácil",
+    "tags": [
+      "horno",
+      "para compartir"
+    ],
+    "photo": "assets/foto-10.webp",
+    "fallback": "assets/receta-10.svg",
+    "ingredients": [
+      {
+        "id": "patata",
+        "qty": 600.0
+      },
+      {
+        "id": "atun",
+        "qty": 120.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 150.0
+      },
+      {
+        "id": "queso",
+        "qty": 70.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 75.0
+      },
+      {
+        "id": "aceite",
+        "qty": 8.0
+      }
+    ],
+    "steps": [
+      "Hornea las patatas partidas por la mitad a 200 °C durante 30 minutos.",
+      "Vacía con cuidado el centro dejando un borde firme.",
+      "Sofríe la cebolla 4 minutos y mezcla con atún, tomate y patata retirada.",
+      "Rellena las patatas y reparte el queso por encima.",
+      "Gratina 5 minutos hasta que el queso se funda."
+    ],
+    "videoSearch": "Patatas rellenas de atún receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Pincha con tenedor; el interior debe estar blando antes de vaciar."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Deja un borde de medio centímetro para que no se rompan."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Aplasta un poco la patata extraída para que el relleno quede unido."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Aprieta ligeramente la mezcla para que no se caiga al gratinar."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Retira cuando el queso esté fundido y ligeramente dorado."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Ensalada de arroz y atún",
+    "description": "Ideal para llevar en táper o comer en frío.",
+    "category": "sin-gluten",
+    "minutes": 20,
+    "servings": 2,
+    "kcal": 395,
+    "difficulty": "Fácil",
+    "tags": [
+      "fría",
+      "para táper"
+    ],
+    "photo": "assets/foto-11.webp",
+    "fallback": "assets/receta-11.svg",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "qty": 160.0
+      },
+      {
+        "id": "atun",
+        "qty": 120.0
+      },
+      {
+        "id": "maiz",
+        "qty": 100.0
+      },
+      {
+        "id": "tomate",
+        "qty": 200.0
+      },
+      {
+        "id": "pepino",
+        "qty": 120.0
+      },
+      {
+        "id": "aceite",
+        "qty": 14.0
+      },
+      {
+        "id": "limon",
+        "qty": 50.0
+      }
+    ],
+    "steps": [
+      "Cuece el arroz, pásalo por agua fría y escurre.",
+      "Lava y corta tomate y pepino en dados.",
+      "Escurre el atún y el maíz.",
+      "Mezcla todos los ingredientes en una ensaladera.",
+      "Aliña con aceite y limón y conserva refrigerado hasta servir."
+    ],
+    "videoSearch": "Ensalada de arroz y atún receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Enfríalo rápido y refrigera si no lo vas a consumir enseguida."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Escurre bien las verduras para que no agüen la ensalada."
+      },
+      {
+        "needs": "Colador, agua y recipiente limpio",
+        "tip": "Desmenuza el atún con un tenedor."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Usa un bol grande para mezclar sin aplastar el arroz."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Mantenla refrigerada y evita dejar arroz cocido muchas horas a temperatura ambiente."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Revuelto de champiñones",
+    "description": "Cena rápida con proteínas y verduras.",
+    "category": "sin-gluten",
+    "minutes": 15,
+    "servings": 2,
+    "kcal": 290,
+    "difficulty": "Fácil",
+    "tags": [
+      "vegetariano",
+      "rápida"
+    ],
+    "photo": "assets/foto-12.webp",
+    "fallback": "assets/receta-12.svg",
+    "ingredients": [
+      {
+        "id": "huevos",
+        "qty": 4.0
+      },
+      {
+        "id": "champi",
+        "qty": 250.0
+      },
+      {
+        "id": "espinacas",
+        "qty": 100.0
+      },
+      {
+        "id": "ajo",
+        "qty": 6.0
+      },
+      {
+        "id": "aceite",
+        "qty": 15.0
+      },
+      {
+        "id": "sal",
+        "qty": 2.0
+      }
+    ],
+    "steps": [
+      "Limpia y corta los champiñones.",
+      "Sofríe el ajo picado en aceite durante 30 segundos.",
+      "Agrega champiñones y saltea 6 minutos hasta que pierdan el agua.",
+      "Incorpora las espinacas y remueve 2 minutos.",
+      "Añade los huevos batidos y cuájalos suavemente antes de servir."
+    ],
+    "videoSearch": "Revuelto de champiñones receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Sécalos con papel de cocina para que se doren y no hiervan."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "El ajo toma color muy rápido: remueve sin parar."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Espera a que se evapore casi toda el agua de las setas."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Las espinacas reducirán bastante su volumen al calentarse."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Baja el fuego y mueve suavemente para que los huevos queden cremosos."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Pollo con brócoli y arroz",
+    "description": "Proteínas, verduras y carbohidratos en un plato.",
+    "category": "saludable",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 430,
+    "difficulty": "Fácil",
+    "tags": [
+      "alto en proteína",
+      "para táper"
+    ],
+    "photo": "assets/foto-13.webp",
+    "fallback": "assets/receta-13.svg",
+    "ingredients": [
+      {
+        "id": "pollo",
+        "qty": 320.0
+      },
+      {
+        "id": "brocoli",
+        "qty": 300.0
+      },
+      {
+        "id": "arroz",
+        "qty": 140.0
+      },
+      {
+        "id": "ajo",
+        "qty": 8.0
+      },
+      {
+        "id": "aceite",
+        "qty": 15.0
+      },
+      {
+        "id": "limon",
+        "qty": 70.0
+      }
+    ],
+    "steps": [
+      "Pon el arroz a cocer con agua según el envase.",
+      "Separa el brócoli en ramilletes y cuécelo al vapor 5 minutos.",
+      "Corta el pollo en dados y dóralo bien con el aceite.",
+      "Añade ajo y brócoli y saltea otros 3 minutos.",
+      "Termina con limón y sirve junto al arroz."
+    ],
+    "videoSearch": "Pollo con brócoli y arroz receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Puedes hacerlo mientras preparas el pollo y las verduras."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "No los cuezas demasiado; deben quedar verdes y tiernos."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Usa tabla limpia y cocina el pollo sin partes rosadas: 74 °C en el centro."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Remueve para que el brócoli absorba los jugos de la sartén."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Añade el limón al apagar el fuego para conservar su sabor."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Merluza al horno con patatas",
+    "description": "Ligero, sabroso y sin frituras.",
+    "category": "saludable",
+    "minutes": 35,
+    "servings": 2,
+    "kcal": 350,
+    "difficulty": "Fácil",
+    "tags": [
+      "horno",
+      "proteico"
+    ],
+    "photo": "assets/foto-14.webp",
+    "fallback": "assets/receta-14.svg",
+    "ingredients": [
+      {
+        "id": "merluza",
+        "qty": 360.0
+      },
+      {
+        "id": "patata",
+        "qty": 360.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 120.0
+      },
+      {
+        "id": "limon",
+        "qty": 70.0
+      },
+      {
+        "id": "aceite",
+        "qty": 18.0
+      },
+      {
+        "id": "pimienta",
+        "qty": 1.0
+      }
+    ],
+    "steps": [
+      "Calienta el horno a 200 °C.",
+      "Corta patatas y cebolla muy finas; añade aceite.",
+      "Hornéalas 18 minutos en una fuente.",
+      "Coloca la merluza encima, añade limón y pimienta.",
+      "Hornea otros 12–15 minutos hasta que el pescado esté cocinado."
+    ],
+    "videoSearch": "Merluza al horno con patatas receta fácil paso a paso",
+    "videoId": "rjofAbF4rlo",
+    "videoTitle": "Merluza al horno con patatas · Las Recetas de MJ",
+    "videoNote": "Versión parecida con diferentes cantidades y tiempos.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Prepara una fuente y coloca la rejilla a media altura."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Haz las patatas lo más finas posible para que estén listas a tiempo."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Comprueba que empiezan a ablandarse antes de incorporar el pescado."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Si es congelada, descongela la merluza en la nevera antes de cocinar."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "El pescado debe quedar opaco y separarse en lascas con el tenedor."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Crema de calabacín suave",
+    "description": "Una opción reconfortante con verdura de verdad.",
+    "category": "saludable",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 245,
+    "difficulty": "Fácil",
+    "tags": [
+      "ligera",
+      "vegetariana"
+    ],
+    "photo": "assets/foto-15.webp",
+    "fallback": "assets/receta-15.svg",
+    "ingredients": [
+      {
+        "id": "calabacin",
+        "qty": 500.0
+      },
+      {
+        "id": "patata",
+        "qty": 200.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 100.0
+      },
+      {
+        "id": "yogur",
+        "qty": 80.0
+      },
+      {
+        "id": "aceite",
+        "qty": 12.0
+      },
+      {
+        "id": "caldo",
+        "qty": 350.0
+      }
+    ],
+    "steps": [
+      "Lava el calabacín y corta patata y cebolla.",
+      "Sofríe la cebolla con aceite durante 4 minutos.",
+      "Incorpora calabacín, patata y caldo.",
+      "Cocina 16 minutos hasta que las verduras estén tiernas.",
+      "Tritura, deja templar un poco y mezcla con el yogur natural."
+    ],
+    "videoSearch": "Crema de calabacín suave receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "No hace falta pelar el calabacín si la piel está bien lavada."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "La cebolla estará lista cuando se vea transparente."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Añade el caldo justo hasta cubrir las verduras, no mucho más."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Pincha la patata: tiene que estar completamente blanda."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Incorpora el yogur fuera del fuego para evitar que se corte."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Ensalada de lentejas completa",
+    "description": "Llena de fibra y lista en un momento.",
+    "category": "saludable",
+    "minutes": 12,
+    "servings": 2,
+    "kcal": 335,
+    "difficulty": "Fácil",
+    "tags": [
+      "para táper",
+      "vegetariana"
+    ],
+    "photo": "assets/foto-16.webp",
+    "fallback": "assets/receta-16.svg",
+    "ingredients": [
+      {
+        "id": "lentejas",
+        "qty": 350.0
+      },
+      {
+        "id": "huevos",
+        "qty": 2.0
+      },
+      {
+        "id": "tomate",
+        "qty": 200.0
+      },
+      {
+        "id": "pepino",
+        "qty": 120.0
+      },
+      {
+        "id": "zanahoria",
+        "qty": 100.0
+      },
+      {
+        "id": "aceite",
+        "qty": 13.0
+      },
+      {
+        "id": "limon",
+        "qty": 50.0
+      }
+    ],
+    "steps": [
+      "Cuece los huevos 10 minutos, enfría y pela.",
+      "Lava las lentejas y escúrrelas bien.",
+      "Corta tomate y pepino; ralla la zanahoria.",
+      "Combina lentejas y verduras en un bol.",
+      "Añade huevo picado, aceite y limón y mezcla."
+    ],
+    "videoSearch": "Ensalada de lentejas completa receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "El agua debe cubrir los huevos; enfríalos bajo el grifo al terminar."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Elimina el líquido de conserva y escurre bien."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Cuanto más pequeñas las verduras, más cómodo será comer la ensalada."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Remueve suavemente para mantener las lentejas enteras."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Añade el huevo al final y mezcla una sola vez."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pavo salteado con verduras",
+    "description": "Rápido, colorido y con pocos ingredientes.",
+    "category": "saludable",
+    "minutes": 20,
+    "servings": 2,
+    "kcal": 330,
+    "difficulty": "Fácil",
+    "tags": [
+      "alto en proteína",
+      "rápida"
+    ],
+    "photo": "assets/foto-17.webp",
+    "fallback": "assets/receta-17.svg",
+    "ingredients": [
+      {
+        "id": "pavo",
+        "qty": 320.0
+      },
+      {
+        "id": "calabacin",
+        "qty": 200.0
+      },
+      {
+        "id": "pimiento",
+        "qty": 180.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 100.0
+      },
+      {
+        "id": "aceite",
+        "qty": 15.0
+      },
+      {
+        "id": "pimienta",
+        "qty": 2.0
+      }
+    ],
+    "steps": [
+      "Corta pavo y verduras en tiras del tamaño de un bocado.",
+      "Calienta la sartén con aceite y cocina el pavo hasta dorar y cocer bien.",
+      "Retira el pavo y añade cebolla y pimiento durante 5 minutos.",
+      "Incorpora calabacín y cocina 4 minutos más.",
+      "Vuelve a añadir el pavo, pimienta y sal al gusto; mezcla."
+    ],
+    "videoSearch": "Pavo salteado con verduras receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Haz tiras del mismo grosor para que el pavo quede uniforme."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Cocina hasta que no quede crudo por dentro; 74 °C es una referencia segura para aves."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Retira el pavo a un plato y deja los jugos en la sartén."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Si se seca el fondo, añade una cucharada de agua y remueve."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Comprueba que todo esté bien caliente y sirve enseguida."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Bol de yogur, avena y plátano",
+    "description": "Desayuno sin complicaciones, saciante y económico.",
+    "category": "saludable",
+    "minutes": 5,
+    "servings": 2,
+    "kcal": 305,
+    "difficulty": "Fácil",
+    "tags": [
+      "desayuno",
+      "sin horno"
+    ],
+    "photo": "assets/foto-18.webp",
+    "fallback": "assets/receta-18.svg",
+    "ingredients": [
+      {
+        "id": "yogur",
+        "qty": 300.0
+      },
+      {
+        "id": "avena",
+        "qty": 90.0
+      },
+      {
+        "id": "platano",
+        "qty": 220.0
+      },
+      {
+        "id": "manzana",
+        "qty": 160.0
+      }
+    ],
+    "steps": [
+      "Reparte el yogur entre dos boles.",
+      "Añade los copos de avena y remueve.",
+      "Pela y corta el plátano en rodajas.",
+      "Lava la manzana y córtala en daditos.",
+      "Decora los boles con la fruta y sirve al momento."
+    ],
+    "videoSearch": "Bol de yogur, avena y plátano receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Usa boles amplios para poder mezclar luego."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Deja un minuto para que la avena se hidrate ligeramente."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Corta rodajas no muy gruesas para repartirlas mejor."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Puedes dejar la piel de la manzana si está limpia."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Añade la fruta al final para que conserve su textura."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Macarrones con tomate y atún",
+    "description": "Un clásico económico que siempre funciona.",
+    "category": "normal",
+    "minutes": 20,
+    "servings": 2,
+    "kcal": 460,
+    "difficulty": "Fácil",
+    "tags": [
+      "para táper",
+      "clásico"
+    ],
+    "photo": "assets/foto-19.webp",
+    "fallback": "assets/receta-19.svg",
+    "ingredients": [
+      {
+        "id": "pasta",
+        "qty": 180.0
+      },
+      {
+        "id": "atun",
+        "qty": 120.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 250.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 90.0
+      },
+      {
+        "id": "aceite",
+        "qty": 13.0
+      },
+      {
+        "id": "ajo",
+        "qty": 5.0
+      }
+    ],
+    "steps": [
+      "Hierve la pasta en abundante agua siguiendo el envase.",
+      "Pica la cebolla y el ajo, y sofríe con aceite.",
+      "Incorpora tomate triturado y cocina 8 minutos.",
+      "Añade el atún escurrido y mezcla 1 minuto.",
+      "Junta la pasta con la salsa y sirve caliente."
+    ],
+    "videoSearch": "Macarrones con tomate y atún receta fácil paso a paso",
+    "videoId": "mBvgYqUVbhk",
+    "videoTitle": "Macarrones con atún y tomate · HoyComemos",
+    "videoNote": "Incluye algunos ingredientes extra: utiliza las instrucciones de MIGA para nuestra versión barata.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Prueba un macarrón antes de escurrir: debe estar tierno pero firme."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Mueve el ajo para que no se queme y amargue."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Pon fuego suave y remueve hasta que pierda parte del agua."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Desmenuza el atún y evita cocinarlo demasiado para que no se reseque."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Guarda un poco de agua de cocción por si necesitas aligerar la salsa."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Arroz con pollo y verduras",
+    "description": "Un plato de una sola sartén para ahorrar tiempo.",
+    "category": "normal",
+    "minutes": 30,
+    "servings": 2,
+    "kcal": 490,
+    "difficulty": "Fácil",
+    "tags": [
+      "tradicional",
+      "una olla"
+    ],
+    "photo": "assets/foto-20.webp",
+    "fallback": "assets/receta-20.svg",
+    "ingredients": [
+      {
+        "id": "arroz",
+        "qty": 170.0
+      },
+      {
+        "id": "pollo",
+        "qty": 300.0
+      },
+      {
+        "id": "pimiento",
+        "qty": 150.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 90.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 120.0
+      },
+      {
+        "id": "caldo",
+        "qty": 450.0
+      },
+      {
+        "id": "aceite",
+        "qty": 16.0
+      }
+    ],
+    "steps": [
+      "Corta el pollo y la verdura en trozos pequeños.",
+      "Dora el pollo con aceite en una sartén honda.",
+      "Añade cebolla y pimiento y rehoga 5 minutos.",
+      "Incorpora tomate y arroz; remueve un minuto.",
+      "Vierte el caldo caliente y cocina unos 17 minutos hasta que el arroz esté hecho."
+    ],
+    "videoSearch": "Arroz con pollo y verduras receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Prepara todos los ingredientes antes de empezar: luego irás incorporándolos rápido."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Sella el pollo por fuera; terminará de cocinarse con el arroz."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Remueve mientras las verduras se ablandan."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Mezcla hasta que los granos queden impregnados de tomate."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "No dejes de comprobar el líquido; el pollo debe alcanzar 74 °C en el centro."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Espaguetis al ajo y aceite",
+    "description": "Pocos ingredientes, mucho sabor.",
+    "category": "normal",
+    "minutes": 15,
+    "servings": 2,
+    "kcal": 415,
+    "difficulty": "Fácil",
+    "tags": [
+      "italiana",
+      "rápida"
+    ],
+    "photo": "assets/foto-21.webp",
+    "fallback": "assets/receta-21.svg",
+    "ingredients": [
+      {
+        "id": "pasta",
+        "qty": 190.0
+      },
+      {
+        "id": "ajo",
+        "qty": 15.0
+      },
+      {
+        "id": "aceite",
+        "qty": 28.0
+      },
+      {
+        "id": "pimenton",
+        "qty": 3.0
+      },
+      {
+        "id": "sal",
+        "qty": 2.0
+      }
+    ],
+    "steps": [
+      "Cuece los espaguetis dejando un poco del agua de cocción.",
+      "Pela los ajos y córtalos en láminas finas.",
+      "Calienta el aceite a fuego medio y dora ligeramente el ajo sin quemarlo.",
+      "Agrega pimentón fuera del fuego y un par de cucharadas de agua de cocción.",
+      "Añade la pasta, mezcla hasta ligar y sirve inmediatamente."
+    ],
+    "videoSearch": "Espaguetis al ajo y aceite receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Reserva media taza del agua de pasta antes de colarla."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Las láminas finas perfuman mejor el aceite."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Fuego suave: el ajo debe estar dorado claro, nunca negro."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "El agua caliente ayuda a crear una salsa ligera sin más aceite."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Da varias vueltas para que cada espagueti quede cubierto."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Sopa casera de fideos",
+    "description": "Calentita y sorprendentemente barata.",
+    "category": "normal",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 305,
+    "difficulty": "Fácil",
+    "tags": [
+      "de cuchara",
+      "clásico"
+    ],
+    "photo": "assets/foto-22.webp",
+    "fallback": "assets/receta-22.svg",
+    "ingredients": [
+      {
+        "id": "fideos",
+        "qty": 130.0
+      },
+      {
+        "id": "caldo",
+        "qty": 850.0
+      },
+      {
+        "id": "zanahoria",
+        "qty": 140.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 90.0
+      },
+      {
+        "id": "huevos",
+        "qty": 2.0
+      },
+      {
+        "id": "aceite",
+        "qty": 9.0
+      }
+    ],
+    "steps": [
+      "Sofríe la cebolla y la zanahoria cortadas muy pequeñas.",
+      "Vierte el caldo y deja hervir 10 minutos.",
+      "Añade los fideos y cuece el tiempo del envase.",
+      "Cuece los huevos aparte 10 minutos y pélalos.",
+      "Sirve la sopa con huevo picado por encima."
+    ],
+    "videoSearch": "Sopa casera de fideos receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Corta muy pequeño para que las verduras se integren en el caldo."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Mantén un hervor suave, no a borbotones."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Prueba un fideo antes de apagar para comprobar la textura."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Enfríalos en agua fría para pelarlos con facilidad."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Añade el huevo al plato justo antes de comer."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Pizza rápida de tortilla",
+    "description": "Una pizza casera sin complicaciones.",
+    "category": "normal",
+    "minutes": 17,
+    "servings": 2,
+    "kcal": 455,
+    "difficulty": "Fácil",
+    "tags": [
+      "rápida",
+      "horno"
+    ],
+    "photo": "assets/foto-23.webp",
+    "fallback": "assets/receta-23.svg",
+    "ingredients": [
+      {
+        "id": "tortillas",
+        "qty": 2.0
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 130.0
+      },
+      {
+        "id": "queso",
+        "qty": 110.0
+      },
+      {
+        "id": "champi",
+        "qty": 150.0
+      },
+      {
+        "id": "pimiento",
+        "qty": 110.0
+      },
+      {
+        "id": "aceite",
+        "qty": 5.0
+      }
+    ],
+    "steps": [
+      "Calienta el horno a 210 °C.",
+      "Coloca las tortillas de trigo sobre papel de horno.",
+      "Extiende una capa fina de tomate sobre cada tortilla.",
+      "Reparte queso y verduras cortadas en láminas finas.",
+      "Hornea 8–10 minutos hasta que el queso se dore."
+    ],
+    "videoSearch": "Pizza rápida de tortilla receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Pon papel de horno sobre una bandeja para facilitar la limpieza."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Deja espacio entre las tortillas para que el borde quede crujiente."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Una capa gruesa humedecería demasiado la base."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Corta las verduras muy finas para que se cocinen en pocos minutos."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Vigila los últimos minutos: los bordes se tuestan muy rápido."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Patatas gratinadas con queso",
+    "description": "Perfectas para una cena barata y contundente.",
+    "category": "normal",
+    "minutes": 40,
+    "servings": 2,
+    "kcal": 485,
+    "difficulty": "Fácil",
+    "tags": [
+      "horno",
+      "vegetariana"
+    ],
+    "photo": "assets/foto-24.webp",
+    "fallback": "assets/receta-24.svg",
+    "ingredients": [
+      {
+        "id": "patata",
+        "qty": 600.0
+      },
+      {
+        "id": "queso",
+        "qty": 120.0
+      },
+      {
+        "id": "leche",
+        "qty": 170.0
+      },
+      {
+        "id": "cebolla",
+        "qty": 110.0
+      },
+      {
+        "id": "aceite",
+        "qty": 12.0
+      },
+      {
+        "id": "pimienta",
+        "qty": 2.0
+      }
+    ],
+    "steps": [
+      "Precalienta el horno a 195 °C.",
+      "Corta patatas y cebolla en láminas muy finas.",
+      "Colócalas por capas en una fuente ligeramente aceitada.",
+      "Vierte la leche, añade pimienta y cubre con queso rallado.",
+      "Hornea 30–35 minutos hasta que las patatas estén tiernas y el queso dorado."
+    ],
+    "videoSearch": "Patatas gratinadas con queso receta fácil paso a paso",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": "",
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Usa una fuente no demasiado profunda para que todo se haga igual."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Una mandolina puede ayudar, pero úsala con protección para las manos."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Reparte un poco de cebolla entre las capas de patata."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Vierte la leche despacio para que entre entre las capas."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Si se dora antes de tiempo, cubre con papel de aluminio y sigue horneando."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Lomo de cerdo con patatas al romero",
+    "description": "Lomo jugoso, patatas tiernas y un toque de pimentón.",
+    "category": "normal",
+    "minutes": 30,
+    "servings": 2,
+    "kcal": 540,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica"
+    ],
+    "photo": "assets/foto-25.webp",
+    "fallback": "assets/icon.svg",
+    "ingredients": [
+      {
+        "id": "lomo_cerdo",
+        "qty": 320
+      },
+      {
+        "id": "patata",
+        "qty": 500
+      },
+      {
+        "id": "pimenton",
+        "qty": 3
+      },
+      {
+        "id": "ajo",
+        "qty": 6
+      },
+      {
+        "id": "aceite",
+        "qty": 20
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      }
+    ],
+    "steps": [
+      "Lava las patatas y córtalas en gajos del mismo tamaño.",
+      "Pon los gajos en una fuente con aceite, ajo y pimentón; mezcla bien.",
+      "Hornea a 200 °C unos 25 minutos, dándoles la vuelta a mitad.",
+      "Salpimenta el lomo y dóralo en una sartén bien caliente 2–3 minutos por lado, según grosor.",
+      "Comprueba que esté completamente cocinado y sirve el lomo con las patatas."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Los gajos de unos 2 cm se hacen más uniformes."
+      },
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Reparte el aceite con una cuchara para que llegue a todas las patatas."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Pincha una patata para comprobar que está tierna por dentro."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "No amontones la carne; cocina en dos tandas si hace falta."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Deja reposar el lomo un minuto antes de cortarlo."
+      }
+    ],
+    "videoSearch": "Lomo de cerdo con patatas al romero receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  },
+  {
+    "id": 26,
+    "title": "Albóndigas caseras en tomate",
+    "description": "Albóndigas económicas con salsa casera y arroz.",
+    "category": "normal",
+    "minutes": 35,
+    "servings": 2,
+    "kcal": 560,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica"
+    ],
+    "photo": "assets/foto-26.webp",
+    "fallback": "assets/icon.svg",
+    "ingredients": [
+      {
+        "id": "picada_mixta",
+        "qty": 320
+      },
+      {
+        "id": "huevos",
+        "qty": 1
+      },
+      {
+        "id": "arroz",
+        "qty": 130
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 350
+      },
+      {
+        "id": "cebolla",
+        "qty": 100
+      },
+      {
+        "id": "aceite",
+        "qty": 15
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      },
+      {
+        "id": "pimienta",
+        "qty": 2
+      }
+    ],
+    "steps": [
+      "Mezcla la carne con el huevo, sal y pimienta en un bol.",
+      "Forma albóndigas pequeñas con las manos limpias y colócalas en un plato.",
+      "Dóralas en una sartén con aceite, girándolas para que cojan color.",
+      "Añade cebolla picada y tomate triturado; cocina tapado 15 minutos, hasta que estén totalmente hechas.",
+      "Cuece el arroz aparte, comprueba la cocción completa de las albóndigas y sirve todo caliente."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Bol o recipiente amplio y cuchara o tenedor",
+        "tip": "Mezcla solo hasta unir los ingredientes para que no queden duras."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Hazlas pequeñas e iguales para que se cocinen a la vez."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Todavía no tienen que estar hechas por dentro: acabarán en la salsa."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Remueve de vez en cuando para que la salsa no se agarre al fondo."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Si tienes termómetro, el centro de carne picada debe llegar a 71 °C."
+      }
+    ],
+    "videoSearch": "Albóndigas caseras en tomate receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  },
+  {
+    "id": 27,
+    "title": "Fajitas rápidas de pollo y pimientos",
+    "description": "Una cena jugosa que cada uno puede rellenar a su gusto.",
+    "category": "normal",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 495,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica"
+    ],
+    "photo": "assets/foto-27.webp",
+    "fallback": "assets/icon.svg",
+    "ingredients": [
+      {
+        "id": "pollo",
+        "qty": 300
+      },
+      {
+        "id": "tortillas",
+        "qty": 4
+      },
+      {
+        "id": "pimiento",
+        "qty": 200
+      },
+      {
+        "id": "cebolla",
+        "qty": 120
+      },
+      {
+        "id": "limon",
+        "qty": 60
+      },
+      {
+        "id": "aceite",
+        "qty": 15
+      },
+      {
+        "id": "comino",
+        "qty": 3
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      }
+    ],
+    "steps": [
+      "Corta el pollo en tiras finas y lava los pimientos y la cebolla.",
+      "Corta las verduras en tiras de grosor parecido.",
+      "Saltea el pollo con aceite a fuego medio-alto hasta que esté cocinado por completo.",
+      "Añade cebolla, pimiento y comino; saltea 7 minutos hasta que estén tiernos.",
+      "Calienta las tortillas unos segundos, rellena con el pollo y termina con limón."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Prepara una tabla separada para la carne cruda y lávate las manos."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Si cortas las tiras del mismo tamaño, se cocinarán a la vez."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Comprueba 74 °C en el centro del pollo o que no quede carne cruda."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Prueba la verdura: debe estar blanda pero conservar algo de textura."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "No rellenes demasiado para poder cerrar cada tortilla."
+      }
+    ],
+    "videoSearch": "Fajitas rápidas de pollo y pimientos receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  },
+  {
+    "id": 28,
+    "title": "Pavo salteado con champiñones y arroz",
+    "description": "Proteína magra y champiñones con salsa ligera.",
+    "category": "saludable",
+    "minutes": 25,
+    "servings": 2,
+    "kcal": 465,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica"
+    ],
+    "photo": "assets/foto-28.webp",
+    "fallback": "assets/icon.svg",
+    "ingredients": [
+      {
+        "id": "pavo",
+        "qty": 320
+      },
+      {
+        "id": "champi",
+        "qty": 250
+      },
+      {
+        "id": "arroz",
+        "qty": 140
+      },
+      {
+        "id": "ajo",
+        "qty": 8
+      },
+      {
+        "id": "aceite",
+        "qty": 12
+      },
+      {
+        "id": "limon",
+        "qty": 50
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      }
+    ],
+    "steps": [
+      "Pon el arroz a cocer según el envase y reserva tapado.",
+      "Limpia los champiñones y córtalos en láminas; corta el pavo en tiras.",
+      "Calienta el aceite en una sartén y saltea el pavo hasta que esté completamente cocinado.",
+      "Añade los champiñones y el ajo; cocina 5–6 minutos hasta que se evapore el agua.",
+      "Apaga el fuego, añade el limón y sirve sobre el arroz."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Prueba un grano para comprobar que está tierno."
+      },
+      {
+        "needs": "Tabla de cortar, cuchillo y los alimentos indicados",
+        "tip": "Sécalos bien: así se saltean en lugar de cocerse."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Usa una espátula y comprueba 74 °C en el interior del pavo."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "No tapes la sartén: quieres que el agua se evapore."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "Pon el limón al final para mantener su aroma."
+      }
+    ],
+    "videoSearch": "Pavo salteado con champiñones y arroz receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  },
+  {
+    "id": 29,
+    "title": "Pollo con guisantes en salsa de tomate",
+    "description": "Pollo tierno con verduras y una salsa casera ligera.",
+    "category": "saludable",
+    "minutes": 30,
+    "servings": 2,
+    "kcal": 410,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica"
+    ],
+    "photo": "assets/foto-29.webp",
+    "fallback": "assets/icon.svg",
+    "ingredients": [
+      {
+        "id": "pollo",
+        "qty": 320
+      },
+      {
+        "id": "guisantes",
+        "qty": 230
+      },
+      {
+        "id": "tomate_trit",
+        "qty": 250
+      },
+      {
+        "id": "cebolla",
+        "qty": 120
+      },
+      {
+        "id": "aceite",
+        "qty": 12
+      },
+      {
+        "id": "pimenton",
+        "qty": 3
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      }
+    ],
+    "steps": [
+      "Corta el pollo en dados y pica la cebolla pequeña.",
+      "Dora el pollo en una sartén con un poco de aceite.",
+      "Añade la cebolla y cocina 5 minutos, removiendo.",
+      "Incorpora tomate, pimentón y guisantes; cocina a fuego suave 12 minutos.",
+      "Comprueba que el pollo esté bien hecho y ajusta de sal antes de servir."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Usa cuchillo y tabla distintos para carne y verdura."
+      },
+      {
+        "needs": "Sartén, espátula y un poco de aceite",
+        "tip": "Dóralo por fuera; terminará la cocción con la salsa."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "La cebolla debe quedar tierna y algo transparente."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "Si se espesa demasiado, añade 2–3 cucharadas de agua."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "El pollo debe alcanzar 74 °C en su centro."
+      }
+    ],
+    "videoSearch": "Pollo con guisantes en salsa de tomate receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  },
+  {
+    "id": 30,
+    "title": "Pollo al horno con limón y patatas",
+    "description": "Un clásico completo, sencillo y naturalmente sin gluten.",
+    "category": "sin-gluten",
+    "minutes": 40,
+    "servings": 2,
+    "kcal": 520,
+    "difficulty": "Fácil",
+    "tags": [
+      "proteínas",
+      "carne",
+      "económica",
+      "sin gluten, comprobar etiquetas"
+    ],
+    "photo": "assets/foto-30.webp",
+    "fallback": "assets/receta-30.svg",
+    "ingredients": [
+      {
+        "id": "pollo",
+        "qty": 340
+      },
+      {
+        "id": "patata",
+        "qty": 420
+      },
+      {
+        "id": "cebolla",
+        "qty": 120
+      },
+      {
+        "id": "limon",
+        "qty": 100
+      },
+      {
+        "id": "ajo",
+        "qty": 6
+      },
+      {
+        "id": "aceite",
+        "qty": 15
+      },
+      {
+        "id": "sal",
+        "qty": 3
+      }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C y prepara una fuente grande.",
+      "Lava, pela y corta las patatas en rodajas finas; corta la cebolla en tiras.",
+      "Reparte las patatas y cebolla con aceite, ajo y sal; hornea 15 minutos.",
+      "Coloca encima el pollo y el limón cortado; hornea unos 20 minutos más.",
+      "Comprueba la cocción del pollo, deja reposar 2 minutos y sirve."
+    ],
+    "stepDetails": [
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Coloca la bandeja a media altura del horno."
+      },
+      {
+        "needs": "Olla o cazo con agua, cuchara y colador",
+        "tip": "El tamaño parecido ayuda a que las patatas queden tiernas a la vez."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Remueve una vez para que no se pegue la base."
+      },
+      {
+        "needs": "Horno precalentado, bandeja y manoplas",
+        "tip": "Vierte un poco de agua si se seca el fondo de la fuente."
+      },
+      {
+        "needs": "Platos limpios y los ingredientes ya cocinados",
+        "tip": "El pollo debe alcanzar 74 °C; comprueba siempre las etiquetas de especias para celiaquía."
+      }
+    ],
+    "videoSearch": "Pollo al horno con limón y patatas receta paso a paso",
+    "videoId": "",
+    "videoTitle": "",
+    "videoNote": "Comprueba las cantidades porque los vídeos externos pueden utilizar otra versión.",
+    "photoCredit": "MIGA · ilustración fotográfica generada",
+    "photoSource": ""
+  }
+]

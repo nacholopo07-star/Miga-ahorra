@@ -1,0 +1,1079 @@
+{
+  "arroz": {
+    "name": "Arroz redondo",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.15,
+        "status": "referencia",
+        "source": "https://finditapp.es/product/22553/arroz-redondo-hacendado",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 1.15,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/arroz/arroz-redondo/1644",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/arroz-redondo-extra-origen-espana/7022762",
+        "linkType": "producto"
+      }
+    }
+  },
+  "pasta": {
+    "name": "Pasta de trigo",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.12,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/7862/macarron-hacendado-paquete",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 1.15,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/p/macarrones-paquete/7259104",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/macarrones-paquete/7259104",
+        "linkType": "producto"
+      }
+    }
+  },
+  "pasta_sg": {
+    "name": "Pasta certificada sin gluten",
+    "pack": 500,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.99,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/pastas/1675",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "lentejas": {
+    "name": "Lentejas cocidas",
+    "pack": 400,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/3156/lenteja-cocida-pardina-hacendado-tarro",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 0.89,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/p/lenteja-pardina-cocida-frasco/7043982",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/lenteja-pardina-cocida-frasco/7043982",
+        "linkType": "producto"
+      }
+    }
+  },
+  "garbanzos": {
+    "name": "Garbanzos cocidos",
+    "pack": 400,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.79,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/26020/garbanzo-cocido-lechoso-andaluz-hacendado-tarro",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 0.8,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/legumbres/1654",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/garbanzo-cocido-frasco/7043987",
+        "linkType": "producto"
+      }
+    }
+  },
+  "alubias": {
+    "name": "Alubias blancas cocidas",
+    "pack": 400,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.77,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 0.75,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/legumbres/1654",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/alubia-blanca-cocida-frasco/7043979",
+        "linkType": "producto"
+      }
+    }
+  },
+  "huevos": {
+    "name": "Huevos M",
+    "pack": 12,
+    "unit": "ud",
+    "stores": {
+      "mercadona": {
+        "price": 2.79,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/19565/huevo-m-l-hacendado-docena-12-uds",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 2.85,
+        "status": "oficial",
+        "source": "https://tienda.consum.es/es/p/huevos-m-medianos-docena/7098382",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/huevos-m-medianos-docena/7098382",
+        "linkType": "producto"
+      }
+    }
+  },
+  "patata": {
+    "name": "Patatas",
+    "pack": 2000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 2.7,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.8,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "cebolla": {
+    "name": "Cebolla",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.5,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.45,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "ajo": {
+    "name": "Ajo",
+    "pack": 250,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.65,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.55,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "zanahoria": {
+    "name": "Zanahoria",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.3,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.35,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/p/zanahoria-de-mesa-bolsa/4501508",
+        "linkType": "producto"
+      }
+    }
+  },
+  "calabacin": {
+    "name": "Calabacín",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.99,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "pimiento": {
+    "name": "Pimiento rojo/verde",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 2.6,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.75,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "tomate": {
+    "name": "Tomate fresco",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 2.15,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "tomate_trit": {
+    "name": "Tomate triturado",
+    "pack": 800,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/p/tomate-triturado-lata/7029205",
+        "linkType": "producto"
+      }
+    }
+  },
+  "lechuga": {
+    "name": "Lechuga",
+    "pack": 1,
+    "unit": "ud",
+    "stores": {
+      "mercadona": {
+        "price": 1.15,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "pepino": {
+    "name": "Pepino",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.75,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "brocoli": {
+    "name": "Brócoli",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 2.45,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.59,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "champi": {
+    "name": "Champiñones",
+    "pack": 400,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "espinacas": {
+    "name": "Espinacas",
+    "pack": 300,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.45,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.55,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "pollo": {
+    "name": "Pechuga de pollo",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 6.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/4253/pechuga-2-und-bandeja",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 7.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "pavo": {
+    "name": "Filetes de pavo",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 7.5,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 7.9,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "atun": {
+    "name": "Atún en lata (escurrido)",
+    "pack": 240,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 3.15,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/18027/atun-claro-aceite-oliva-hacendado-pack-3",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 3.3,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "merluza": {
+    "name": "Merluza congelada",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 6.5,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 6.75,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "yogur": {
+    "name": "Yogur natural",
+    "pack": 500,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.1,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.19,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "avena": {
+    "name": "Copos de avena",
+    "pack": 500,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.05,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "platano": {
+    "name": "Plátano",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.75,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "manzana": {
+    "name": "Manzana",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.9,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.0,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "limon": {
+    "name": "Limón",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "leche": {
+    "name": "Leche",
+    "pack": 1000,
+    "unit": "ml",
+    "stores": {
+      "mercadona": {
+        "price": 0.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/19686/leche-semidesnatada-hacendado-brik-1-l",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 1.0,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/p/leche-semidesnatada-brik/7080604",
+        "linkType": "producto"
+      }
+    }
+  },
+  "aceite": {
+    "name": "Aceite de oliva",
+    "pack": 1000,
+    "unit": "ml",
+    "stores": {
+      "mercadona": {
+        "price": 5.1,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/14994/aceite-oliva-virgen-extra-hacendado-gran-seleccion-botella",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 5.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "queso": {
+    "name": "Queso rallado",
+    "pack": 200,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.65,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.7,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "pan": {
+    "name": "Pan de barra",
+    "pack": 1,
+    "unit": "ud",
+    "stores": {
+      "mercadona": {
+        "price": 0.85,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/product/83231.1/barra-pan-aceite-oliva",
+        "linkType": "producto"
+      },
+      "consum": {
+        "price": 0.9,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "tortillas": {
+    "name": "Tortillas de trigo",
+    "pack": 6,
+    "unit": "ud",
+    "stores": {
+      "mercadona": {
+        "price": 1.65,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.7,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "maiz": {
+    "name": "Maíz en conserva",
+    "pack": 300,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 0.99,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "guisantes": {
+    "name": "Guisantes congelados",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.89,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "salsa_soja": {
+    "name": "Salsa de soja (contiene gluten)",
+    "pack": 150,
+    "unit": "ml",
+    "stores": {
+      "mercadona": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.3,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "pimenton": {
+    "name": "Pimentón dulce",
+    "pack": 50,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.19,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "comino": {
+    "name": "Comino molido",
+    "pack": 42,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.3,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "curry": {
+    "name": "Curry en polvo",
+    "pack": 45,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.35,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "sal": {
+    "name": "Sal",
+    "pack": 1000,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.4,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 0.45,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "pimienta": {
+    "name": "Pimienta negra",
+    "pack": 45,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 1.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.3,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
+        "linkType": "categoria"
+      }
+    }
+  },
+  "caldo": {
+    "name": "Caldo de verduras",
+    "pack": 1000,
+    "unit": "ml",
+    "stores": {
+      "mercadona": {
+        "price": 1.15,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 1.2,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es/p/caldo-casero-cocido-brik/7104511",
+        "linkType": "producto"
+      }
+    }
+  },
+  "fideos": {
+    "name": "Fideos de sopa",
+    "pack": 500,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 0.89,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 0.95,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "pan_sg": {
+    "name": "Pan certificado sin gluten",
+    "pack": 300,
+    "unit": "g",
+    "stores": {
+      "mercadona": {
+        "price": 2.15,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      },
+      "consum": {
+        "price": 2.25,
+        "status": "estimado",
+        "source": null,
+        "date": null,
+        "productUrl": "https://tienda.consum.es/es",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "lomo_cerdo": {
+    "name": "Filetes de lomo de cerdo",
+    "unit": "g",
+    "pack": 500,
+    "stores": {
+      "consum": {
+        "price": 3.45,
+        "status": "oficial",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/filete-lomo-de-cerdo/3339983",
+        "linkType": "producto"
+      },
+      "mercadona": {
+        "price": 3.6,
+        "status": "estimado",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      }
+    }
+  },
+  "picada_mixta": {
+    "name": "Carne picada mixta",
+    "unit": "g",
+    "pack": 400,
+    "stores": {
+      "consum": {
+        "price": 3.29,
+        "status": "oficial",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.consum.es/es/p/preparado-picada-mixta/925594",
+        "linkType": "producto"
+      },
+      "mercadona": {
+        "price": 3.45,
+        "status": "estimado",
+        "date": "2026-10-16",
+        "productUrl": "https://tienda.mercadona.es/",
+        "linkType": "tienda"
+      }
+    }
+  }
+}
