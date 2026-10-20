@@ -1,0 +1,18 @@
+MIGA Ahorra — Completar actualización de 200 recetas y Cocinar Hoy
+
+GitHub sigue mostrando 30 recetas y algunos archivos antiguos.
+Extrae este ZIP y sube su contenido (las carpetas data y public)
+a la RAÍZ del repositorio, no a una subcarpeta.
+
+Archivos que deben sobrescribirse:
+- data/recipes.json
+- data/prices.json
+- public/app.js
+- public/features.js
+- public/index.html
+- public/miga-improvements.css (nuevo)
+
+No borres app.py ni el volumen /data de Railway.
+Después del Commit, verifica que data/recipes.json incluye 200 recetas
+y que public/miga-improvements.css aparece en GitHub.
+

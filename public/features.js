@@ -166,11 +166,58 @@ renderShopping=function(){
   const b=basketFromPlan(),better=b.consum<=b.mercadona?'consum':'mercadona',bestSingle=Math.min(b.consum,b.mercadona),savings=bestSingle-b.split;
   const m=b.items.filter(i=>i.packs>0).sort((a,z)=>z.packs*Math.abs(z.product.stores.consum.price-z.product.stores.mercadona.price)-a.packs*Math.abs(a.product.stores.consum.price-a.product.stores.mercadona.price));
   const verified=m.filter(i=>['estimado','referencia'].includes(i.product.stores.consum.status)||['estimado','referencia'].includes(i.product.stores.mercadona.status)).length;
-  box.innerHTML=`<div class="smart-basket-heading"><div><span class="eyebrow">COMPARADOR DE CESTA COMPLETA</span><h2>¿Dónde sale mejor esta compra?</h2><p>Coste de comprar los envases que faltan después de descontar tu nevera.</p></div><div class="basket-savings">✳ ${euro(Math.max(0,b.mercadona-b.consum))} de diferencia entre tiendas</div></div><div class="basket-modes"><div class="basket-mode ${better==='consum'?'cheapest':''}"><span>🟠 Toda la compra en Consum</span><strong>${euro(b.consum)}</strong><small>${better==='consum'?'✓ Menor total en una sola tienda':'Un único supermercado'}</small></div><div class="basket-mode ${better==='mercadona'?'cheapest':''}"><span>🟢 Toda la compra en Mercadona</span><strong>${euro(b.mercadona)}</strong><small>${better==='mercadona'?'✓ Menor total en una sola tienda':'Un único supermercado'}</small></div><div class="basket-mode hybrid"><span>⚖️ Dividida por el precio de cada ingrediente</span><strong>${euro(b.split)}</strong><small>${savings>0?'Ahorrarías '+euro(savings)+' frente a la tienda única más barata':'No aporta ahorro adicional'}</small></div></div><div class="basket-detail"><h3>Productos que puedes comparar</h3>${m.length?`<div class="basket-product-list">${m.map(i=>{const chosen=i.product.stores.consum.price<=i.product.stores.mercadona.price?'consum':'mercadona';const x=i.product.stores[chosen];return `<div><div><b>${escapeHtml(i.product.name)}</b><small>${i.packs} envase${i.packs===1?'':'s'} · ${fmtQty(i.pack,i.product.unit)} cada uno</small></div><div class="basket-right"><span>Menor estimación: <strong>${chosen==='consum'?'Consum':'Mercadona'}</strong> · ${euro(i.packs*x.price)}</span><a href="${escapeHtml(storeUrl(i.product,chosen))}" target="_blank" rel="noopener noreferrer">Ver producto ↗</a></div></div>`}).join('')}</div>`:'<p>Ya tienes suficientes ingredientes para los platos elegidos.</p>'}</div><div class="smart-disclaimer">* Comparación orientativa de precios registrados, no tarifas en directo. ${verified} de ${m.length} ingredientes a comprar incluyen al menos un precio estimado o de fuente externa. Dividir la cesta puede exigir dos desplazamientos y no incorpora promociones, envío ni costes de transporte. Los enlaces no añaden productos automáticamente al carrito.</div>`;
+  box.innerHTML=`<div class="smart-basket-heading"><div><span class="eyebrow">COMPARADOR DE CESTA COMPLETA</span><h2>¿Dónde sale mejor esta compra?</h2><p>Coste de comprar los envases que faltan después de descontar tu nevera.</p></div><div class="basket-savings">✳ ${euro(Math.max(0,b.mercadona-b.consum))} de diferencia entre tiendas</div></div><div class="basket-modes"><div class="basket-mode ${better==='consum'?'cheapest':''}"><span>🟠 Toda la compra en Consum</span><strong>${euro(b.consum)}</strong><small>${better==='consum'?'✓ Menor total en una sola tienda':'Un único supermercado'}</small></div><div class="basket-mode ${better==='mercadona'?'cheapest':''}"><span>🟢 Toda la compra en Mercadona</span><strong>${euro(b.mercadona)}</strong><small>${better==='mercadona'?'✓ Menor total en una sola tienda':'Un único supermercado'}</small></div><div class="basket-mode hybrid"><span>⚖️ Dividida por el precio de cada ingrediente</span><strong>${euro(b.split)}</strong><small>${savings>0?'Ahorrarías '+euro(savings)+' frente a la tienda única más barata':'No aporta ahorro adicional'}</small></div></div><div class="basket-detail"><h3>Productos que puedes comparar</h3>${m.length?`<div class="basket-product-list">${m.map(i=>{const chosen=i.product.stores.consum.price<=i.product.stores.mercadona.price?'consum':'mercadona';const x=i.product.stores[chosen];return `<div><div><b>${escapeHtml(i.product.name)}</b><small>${i.packs} envase${i.packs===1?'':'s'} · ${fmtQty(i.pack,i.product.unit)} cada uno</small></div><div class="basket-right"><span>Menor estimación: <strong>${chosen==='consum'?'Consum':'Mercadona'}</strong> · ${euro(i.packs*x.price)}</span>${retailerLink(i.product,chosen,true)}</div></div>`}).join('')}</div>`:'<p>Ya tienes suficientes ingredientes para los platos elegidos.</p>'}</div><div class="smart-disclaimer">* Comparación orientativa de precios registrados, no tarifas en directo. ${verified} de ${m.length} ingredientes a comprar incluyen al menos un precio estimado o de fuente externa. Dividir la cesta puede exigir dos desplazamientos y no incorpora promociones, envío ni costes de transporte. Los enlaces no añaden productos automáticamente al carrito.</div>`;
 };
+
+
+
+// ¿Qué puedo cocinar hoy? Prioriza inventario REAL (unidades/cantidades) y fechas próximas.
+// Aceite y especias solos no se consideran una base para cocinar un plato.
+const COOK_PANTRY_BASICS=new Set(['sal','aceite','pimienta','comino','pimenton','curry','salsa_soja','caldo']);
+function cookTodayRanking(r,people){
+ const ingredients=effectiveIngredients(r),factor=people/(r.servings||2);
+ const missing=[],available=[],urgent=[];
+ let usedFraction=0,missingValue=0;
+ for(const i of ingredients){
+   const qty=i.qty*factor,p=state.prices[i.id],fridge=state.fridge[i.id];
+   const stored=fridgeUsable(fridge)?Math.max(0,Number(fridge.qty)||0):0;
+   const used=Math.min(qty,stored),short=Math.max(0,qty-stored);
+   if(qty>0)usedFraction+=used/qty;
+   if(used>0){available.push({id:i.id,qty:used});const days=fridgeDays(fridge);if(days!==null&&days>=0&&days<=3)urgent.push({id:i.id,qty:used,days});}
+   if(short>0.001){missing.push({id:i.id,qty:short});missingValue+=(p?.stores?.consum?.price||0)*(short/(p?.pack||1));}
+ }
+ const coverage=ingredients.length?usedFraction/ingredients.length:0;
+ return {r,missing,available,urgent,coverage,missingValue,ready:missing.length===0,
+   score:(missing.length===0?120:0)+coverage*80+urgent.length*18-4*missing.length-Math.min(30,missingValue*3)};
+}
+function renderCookToday(){
+ const target=el('cookTodayResults'),count=el('cookTodayCount');if(!target||!state.prices||!state.recipes.length)return;
+ const list=fridgeInventory().filter(([,data])=>fridgeUsable(data));
+ if(list.length&&!list.some(([id])=>!COOK_PANTRY_BASICS.has(id))){
+  if(count)count.textContent='Necesitamos algún alimento principal.';
+  target.innerHTML='<div class="cook-empty">Añade arroz, verduras, legumbres, carne, pescado u otro alimento principal. Solo aceite, sal o especias no bastan para recomendar platos completos.</div>';return;
+ }
+ if(!list.length){if(count)count.textContent='Añade ingredientes para recibir ideas.';
+  target.innerHTML='<div class="cook-empty"><span>🥬</span><p>Apunta al menos un ingrediente en «Mi nevera» y te enseñaré recetas que lo aprovechen.</p></div>';return;}
+ const people=Math.max(1,Math.min(6,Number(el('cookTodayPeople')?.value)||2));
+ const ranked=state.recipes.filter(r=>effectiveIngredients(r).every(i=>!avoided.has(i.id))).map(r=>cookTodayRanking(r,people)).filter(x=>x.available.some(i=>!COOK_PANTRY_BASICS.has(i.id))).sort((a,b)=>b.score-a.score||a.missingValue-b.missingValue||a.r.minutes-b.r.minutes).slice(0,8);
+ if(count)count.textContent=`${ranked.length} propuestas · ${people} persona${people!==1?'s':''}`;
+ target.innerHTML=ranked.map(({r,ready,missing,urgent,coverage,missingValue},idx)=>{
+   const badges=[ready?'✓ Tienes todos los ingredientes':`${Math.round(coverage*100)}% de ingredientes disponibles`,urgent.length?`⏳ Aprovecha ${urgent.length} alimento${urgent.length!==1?'s':''} con fecha próxima`:''].filter(Boolean);
+   const miss=missing.length?`<div class="cook-missing"><strong>Te faltaría:</strong> ${missing.slice(0,5).map(x=>{
+     const p=state.prices[x.id];return `<div class="cook-missing-line"><span>${escapeHtml(p.name)} · ${fmtQty(x.qty,p.unit)}</span>${retailerLinks(p,true)}</div>`;
+   }).join('')}${missing.length>5?`<small>Y ${missing.length-5} ingredientes más.</small>`:''}</div>`:'<p class="cook-available">Puedes prepararla con las cantidades que tienes registradas.</p>';
+   return `<article class="cook-card"><div class="cook-card-top"><span class="cook-rank">${idx+1}</span><span class="cook-cat">${escapeHtml(cats[r.category]?.name||r.category)}</span><span class="cook-time">⏱ ${r.minutes} min</span></div><h3>${escapeHtml(r.title)}</h3><p class="cook-badges">${badges.map(b=>`<span>${escapeHtml(b)}</span>`).join('')}</p>${miss}<div class="cook-card-bottom"><small>${ready?'Sin compra adicional según tu inventario':`Compra orientativa: ${euro(missingValue)}`}</small><button type="button" class="button primary small" data-cook-recipe="${r.id}">Ver receta →</button></div></article>`;
+ }).join('')||'<div class="cook-empty">No hay recomendaciones todavía. Añade ingredientes diferentes a tu nevera.</div>';
+ target.querySelectorAll('[data-cook-recipe]').forEach(b=>b.onclick=()=>openRecipe(Number(b.dataset.cookRecipe)));
+}
+const baseRenderFridgeForCook=renderFridge;
+renderFridge=function(){baseRenderFridgeForCook();renderCookToday()};
 
 function initFeatures(){
   bindFridge();bindAvoided();
+  el('cookTodayPeople').onchange=()=>renderCookToday();
+  el('fridgeSuggest').onclick=()=>{renderCookToday();el('cookTodaySection').scrollIntoView({behavior:'smooth',block:'start'})};
   el('generatePlan').onclick=makeSmartPlan;
   // Reset sólo las anulaciones manuales: la nevera sigue intacta.
   el('clearPantry').onclick=()=>{state.pantry={};savePantry();renderShopping();renderPlan();toast('Se han restaurado las cantidades de tu nevera.')};

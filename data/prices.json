@@ -10,7 +10,8 @@
         "source": "https://finditapp.es/product/22553/arroz-redondo-hacendado",
         "date": "2026-10-16",
         "productUrl": "https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Arroz redondo Hacendado"
       },
       "consum": {
         "price": 1.15,
@@ -18,7 +19,8 @@
         "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/arroz/arroz-redondo/1644",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/arroz-redondo-extra-origen-espana/7022762",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Arroz redondo extra Origen España"
       }
     }
   },
@@ -33,7 +35,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/7862/macarron-hacendado-paquete",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Macarrón Hacendado"
       },
       "consum": {
         "price": 1.15,
@@ -41,7 +44,8 @@
         "source": "https://tienda.consum.es/es/p/macarrones-paquete/7259104",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/macarrones-paquete/7259104",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Macarrones paquete"
       }
     }
   },
@@ -55,16 +59,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.99,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/pastas/1675",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/spaghetti-sin-gluten-paquete/7365799",
+        "linkType": "producto",
+        "productName": "Gallo Spaghetti sin gluten"
       }
     }
   },
@@ -79,7 +85,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/3156/lenteja-cocida-pardina-hacendado-tarro",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Lenteja cocida pardina Hacendado"
       },
       "consum": {
         "price": 0.89,
@@ -87,7 +94,8 @@
         "source": "https://tienda.consum.es/es/p/lenteja-pardina-cocida-frasco/7043982",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/lenteja-pardina-cocida-frasco/7043982",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Lenteja pardina cocida"
       }
     }
   },
@@ -102,7 +110,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/26020/garbanzo-cocido-lechoso-andaluz-hacendado-tarro",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Garbanzo cocido lechoso andaluz Hacendado"
       },
       "consum": {
         "price": 0.8,
@@ -110,7 +119,8 @@
         "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/legumbres/1654",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/garbanzo-cocido-frasco/7043987",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Garbanzo cocido"
       }
     }
   },
@@ -124,8 +134,9 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 0.75,
@@ -133,7 +144,8 @@
         "source": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/legumbres/1654",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/alubia-blanca-cocida-frasco/7043979",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Alubia blanca cocida"
       }
     }
   },
@@ -148,7 +160,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/19565/huevo-m-l-hacendado-docena-12-uds",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Huevos M/L Hacendado docena"
       },
       "consum": {
         "price": 2.85,
@@ -156,7 +169,8 @@
         "source": "https://tienda.consum.es/es/p/huevos-m-medianos-docena/7098382",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/huevos-m-medianos-docena/7098382",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Huevos M medianos docena"
       }
     }
   },
@@ -170,16 +184,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/69066/patata-pieza",
+        "linkType": "producto",
+        "productName": "Patata (pieza)"
       },
       "consum": {
         "price": 2.8,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/patata-todo-uso-culinario-nueva-espana/7194165",
+        "linkType": "producto",
+        "productName": "Patata todo uso culinario 5 kg"
       }
     }
   },
@@ -193,16 +209,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.45,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/cebolla-seca-malla/76018",
+        "linkType": "producto",
+        "productName": "Cebolla seca malla 1 kg"
       }
     }
   },
@@ -216,16 +234,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.55,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/ajos-secos-malla/2600815",
+        "linkType": "producto",
+        "productName": "Ajos secos malla"
       }
     }
   },
@@ -239,8 +259,9 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.35,
@@ -248,7 +269,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.consum.es/es/p/zanahoria-de-mesa-bolsa/4501508",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Zanahoria de mesa bolsa"
       }
     }
   },
@@ -262,16 +284,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.99,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/calabacin-verde/5526694",
+        "linkType": "producto",
+        "productName": "Calabacín verde"
       }
     }
   },
@@ -285,16 +309,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 2.75,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/pimiento-rojo/66290",
+        "linkType": "alternativa",
+        "productName": "Pimiento rojo"
       }
     }
   },
@@ -308,16 +334,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/69990/tomates-cherry-bandeja",
+        "linkType": "alternativa",
+        "productName": "Tomates cherry en bandeja (alternativa a tomate común)"
       },
       "consum": {
         "price": 2.2,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/tomate-ensalada/60012",
+        "linkType": "producto",
+        "productName": "Tomate ensalada"
       }
     }
   },
@@ -331,8 +359,9 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.25,
@@ -340,7 +369,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.consum.es/es/p/tomate-triturado-lata/7029205",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Tomate triturado lata"
       }
     }
   },
@@ -354,16 +384,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/69670/lechuga-iceberg-base-ensalada-paquete",
+        "linkType": "alternativa",
+        "productName": "Lechuga iceberg para ensalada (variedad alternativa)"
       },
       "consum": {
         "price": 1.25,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/lechuga-romana-peso-aprox-325-g/71332",
+        "linkType": "producto",
+        "productName": "Lechuga romana"
       }
     }
   },
@@ -377,16 +409,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.85,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/pepino/53512",
+        "linkType": "producto",
+        "productName": "Pepino fresco"
       }
     }
   },
@@ -400,16 +434,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 2.59,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/brocoli/7219483",
+        "linkType": "alternativa",
+        "productName": "Brócoli 900 g congelado"
       }
     }
   },
@@ -423,16 +459,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/69519/champinon-laminado-limpio-bandeja",
+        "linkType": "producto",
+        "productName": "Champiñón laminado limpio en bandeja"
       },
       "consum": {
         "price": 1.95,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/verduras/2187",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/champinon-laminado-peso-variable/7314896",
+        "linkType": "producto",
+        "productName": "Champiñón laminado fresco"
       }
     }
   },
@@ -446,16 +484,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/69730/espinacas-cortadas-paquete",
+        "linkType": "alternativa",
+        "productName": "Espinacas cortadas frescas (alternativa a congeladas)"
       },
       "consum": {
         "price": 1.55,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/espinacas-cortadas/7220650",
+        "linkType": "producto",
+        "productName": "Espinacas cortadas congeladas"
       }
     }
   },
@@ -470,15 +510,17 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/4253/pechuga-2-und-bandeja",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Pechuga de pollo bandeja 2 uds"
       },
       "consum": {
         "price": 7.2,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/pechuga-de-pollo/140814",
+        "linkType": "producto",
+        "productName": "Pechuga de pollo"
       }
     }
   },
@@ -492,16 +534,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/2792/tacos-pavo-bandeja",
+        "linkType": "alternativa",
+        "productName": "Tacos de pavo en bandeja (alternativa a filetes)"
       },
       "consum": {
         "price": 7.9,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/filetes-pechuga-de-pavo-extra-tiernos/7448280",
+        "linkType": "producto",
+        "productName": "Filetes de pechuga de pavo"
       }
     }
   },
@@ -516,15 +560,17 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/18027/atun-claro-aceite-oliva-hacendado-pack-3",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Atún claro aceite oliva Hacendado pack 3"
       },
       "consum": {
         "price": 3.3,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/atun-claro-aceite-oliva-pack-de-3/7047017",
+        "linkType": "producto",
+        "productName": "Atún claro en aceite de oliva pack 3"
       }
     }
   },
@@ -538,16 +584,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 6.75,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/filete-merluza-argentina-sin-piel/7416530",
+        "linkType": "producto",
+        "productName": "Filete de merluza argentina sin piel congelada"
       }
     }
   },
@@ -561,16 +609,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.19,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/yogur-natural-pack-de-4-unidades/7340888",
+        "linkType": "producto",
+        "productName": "Yogur natural Consum 4 unidades"
       }
     }
   },
@@ -584,16 +634,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/9222/copos-avena-bruggen-caja",
+        "linkType": "producto",
+        "productName": "Copos de avena Brüggen"
       },
       "consum": {
         "price": 1.05,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/copos-de-avena/7427933",
+        "linkType": "producto",
+        "productName": "Copos de avena Consum"
       }
     }
   },
@@ -607,16 +659,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/3824/banana-pieza",
+        "linkType": "alternativa",
+        "productName": "Banana (alternativa al plátano)"
       },
       "consum": {
         "price": 1.85,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/platano-canario-igp/26104",
+        "linkType": "producto",
+        "productName": "Plátano canario IGP"
       }
     }
   },
@@ -630,16 +684,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 2.0,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/manzana-granny-smith/2600781",
+        "linkType": "alternativa",
+        "productName": "Manzana Granny Smith"
       }
     }
   },
@@ -653,16 +709,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.95,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/frescos/2812",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/limon/332130",
+        "linkType": "producto",
+        "productName": "Limón"
       }
     }
   },
@@ -677,7 +735,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/19686/leche-semidesnatada-hacendado-brik-1-l",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Leche semidesnatada Hacendado 1L"
       },
       "consum": {
         "price": 1.0,
@@ -685,7 +744,8 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.consum.es/es/p/leche-semidesnatada-brik/7080604",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Leche semidesnatada brik 1 L"
       }
     }
   },
@@ -699,16 +759,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/product/14994/aceite-oliva-virgen-extra-hacendado-gran-seleccion-botella",
-        "linkType": "producto"
+        "productUrl": "https://tienda.mercadona.es/product/4740/aceite-oliva-virgen-extra-hacendado-botella",
+        "linkType": "producto",
+        "productName": "Aceite de oliva virgen extra Hacendado botella"
       },
       "consum": {
         "price": 5.2,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/aceite-de-oliva-virgen-extra/7422041",
+        "linkType": "producto",
+        "productName": "Aceite de oliva virgen extra 1 L"
       }
     }
   },
@@ -722,16 +784,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.7,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/queso-rallado-4-quesos/7412773",
+        "linkType": "alternativa",
+        "productName": "Queso rallado 4 quesos"
       }
     }
   },
@@ -746,15 +810,17 @@
         "source": null,
         "date": null,
         "productUrl": "https://tienda.mercadona.es/product/83231.1/barra-pan-aceite-oliva",
-        "linkType": "producto"
+        "linkType": "alternativa",
+        "productName": "Barra de pan con aceite de oliva (alternativa)"
       },
       "consum": {
         "price": 0.9,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/barra-de-pan-/7370323",
+        "linkType": "producto",
+        "productName": "Barra de pan 250 g"
       }
     }
   },
@@ -768,16 +834,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.7,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/tortillas-de-trigo-paquete-8-unidades/53553",
+        "linkType": "producto",
+        "productName": "Old El Paso tortillas de trigo 8 unidades"
       }
     }
   },
@@ -791,16 +859,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 0.99,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/maiz-dulce-lata-pack-de-3/7301708",
+        "linkType": "producto",
+        "productName": "Maíz dulce pack de tres"
       }
     }
   },
@@ -814,16 +884,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.95,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/guisantes-finos/7219512",
+        "linkType": "producto",
+        "productName": "Guisantes finos congelados 1 kg"
       }
     }
   },
@@ -837,16 +909,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.3,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/salsa-soja/7468861",
+        "linkType": "producto",
+        "productName": "Salsa de soja Consum"
       }
     }
   },
@@ -860,16 +934,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.2,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/pimenton-dulce/7435829",
+        "linkType": "producto",
+        "productName": "Pimentón dulce"
       }
     }
   },
@@ -883,16 +959,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.3,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/comino-molido/7435857",
+        "linkType": "producto",
+        "productName": "Comino molido"
       }
     }
   },
@@ -906,16 +984,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.35,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/curry/7435915",
+        "linkType": "producto",
+        "productName": "Curry en polvo"
       }
     }
   },
@@ -929,16 +1009,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.mercadona.es/product/19731/sal-fina-hacendado-paquete",
+        "linkType": "producto",
+        "productName": "Sal fina Hacendado paquete"
       },
       "consum": {
         "price": 0.45,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/sal-fina-bolsa/7080745",
+        "linkType": "alternativa",
+        "productName": "Sal fina bolsa 1 kg"
       }
     }
   },
@@ -952,16 +1034,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.3,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/c/despensa/2811",
-        "linkType": "categoria"
+        "productUrl": "https://tienda.consum.es/es/p/pimienta-negra-molida/7435832",
+        "linkType": "producto",
+        "productName": "Pimienta negra molida"
       }
     }
   },
@@ -975,16 +1059,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 1.2,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es/p/caldo-casero-cocido-brik/7104511",
-        "linkType": "producto"
+        "productUrl": "https://tienda.consum.es/es/p/caldo-de-verduras-gourmet/7487353",
+        "linkType": "producto",
+        "productName": "Gallina Blanca caldo de verduras 1 L"
       }
     }
   },
@@ -998,16 +1084,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 0.95,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/fideo-0/7454007",
+        "linkType": "producto",
+        "productName": "Gallo fideo nº 0"
       }
     }
   },
@@ -1021,16 +1109,18 @@
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       },
       "consum": {
         "price": 2.25,
         "status": "estimado",
         "source": null,
         "date": null,
-        "productUrl": "https://tienda.consum.es/es",
-        "linkType": "tienda"
+        "productUrl": "https://tienda.consum.es/es/p/bollo-rustico-sin-gluten/7447175",
+        "linkType": "alternativa",
+        "productName": "Bollo rústico sin gluten"
       }
     }
   },
@@ -1044,14 +1134,16 @@
         "status": "oficial",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/filete-lomo-de-cerdo/3339983",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Filetes de lomo de cerdo"
       },
       "mercadona": {
         "price": 3.6,
         "status": "estimado",
         "date": "2026-10-16",
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       }
     }
   },
@@ -1065,14 +1157,16 @@
         "status": "oficial",
         "date": "2026-10-16",
         "productUrl": "https://tienda.consum.es/es/p/preparado-picada-mixta/925594",
-        "linkType": "producto"
+        "linkType": "producto",
+        "productName": "Preparado picada mixta"
       },
       "mercadona": {
         "price": 3.45,
         "status": "estimado",
         "date": "2026-10-16",
-        "productUrl": "https://tienda.mercadona.es/",
-        "linkType": "tienda"
+        "productUrl": "",
+        "linkType": "pendiente",
+        "productName": ""
       }
     }
   }
