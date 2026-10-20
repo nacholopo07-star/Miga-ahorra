@@ -42,8 +42,10 @@ def make_backup(db_path: Path, target_dir=None, keep=14):
         source.close()
     output.chmod(0o600)
     files = sorted(destination.glob('miga-*.sqlite3'), reverse=True)
-    for old in files[keep:]:
-        old.unlink()
+    expiry = time.time() - 14 * 86400
+    for ix, old in enumerate(files):
+        if ix >= keep or old.stat().st_mtime < expiry:
+            old.unlink()
     return output
 
 

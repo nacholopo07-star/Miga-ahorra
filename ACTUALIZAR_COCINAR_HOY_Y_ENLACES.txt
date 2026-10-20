@@ -1,0 +1,51 @@
+MIGA Ahorra · ¿Qué puedo cocinar hoy? + fichas concretas Consum / Mercadona
+20 octubre 2026
+
+INSTALACIÓN SOBRE TU MIGA EXISTENTE (200 RECETAS)
+
+1. Descomprime MIGA_Cocinar_Hoy_Enlaces_Productos_GitHub.zip.
+2. En GitHub (repositorio de MIGA), sube los archivos y carpetas DEL INTERIOR
+   a la raíz del repositorio, manteniendo las rutas data/ y public/.
+3. Reemplaza los archivos anteriores con los nuevos y confirma Commit changes.
+4. Railway normalmente desplegará de nuevo. No borres el volumen /data,
+   no cambies claves ni subas bases de datos o ficheros .env.
+5. Abre tu web, entra en MI NEVERA, añade alimentos, usa
+   «¿Qué puedo cocinar hoy?» y abre una receta.
+6. Prueba los enlaces de cada ingrediente en la receta, Mi compra y Precios.
+
+ARCHIVOS QUE SE ACTUALIZAN:
+ - data/prices.json                (enlaces de fichas individuales)
+ - public/app.js                  (botones directos, sin enlaces genéricos)
+ - public/features.js             (recomendaciones inteligentes)
+ - public/index.html              (sección ¿Qué puedo cocinar hoy?)
+ - public/miga-improvements.css   (diseño móvil / oscuro)
+
+DETALLES:
+- Recomendaciones con cantidades reales en nevera y raciones ajustables.
+- Da prioridad a los ingredientes que caducan en 0 a 3 días.
+- No propone usar productos con fecha pasada y evita recetas con ingredientes
+  que el usuario haya marcado como no deseados.
+- Muestra qué falta comprar por receta y enlaces a productos de Consum o Mercadona.
+- El botón abre la ficha INDIVIDUAL de la tienda; si no la hay, muestra
+  «sin ficha / no localizado» en vez de enviar a la portada de la tienda.
+- Se distingue un producto similar de uno equivalente / formato habitual.
+- Los precios existentes son aproximados y NO proceden del enlace ni se actualizan en directo.
+
+ENLACES LOCALIZADOS:
+- Consum: fichas individuales para 47 de 47 ingredientes del catálogo.
+- Mercadona: fichas individuales para 19 de 47 ingredientes; 28 sin ficha segura.
+- Hay productos SIMILARES identificados como tal. Mercadona requiere a menudo
+  código postal y el surtido depende de la zona. Los enlaces pueden cambiar.
+- Aunque la URL tenga formato de producto individual, no es posible garantizar
+  que cada ficha esté activa en toda ubicación o en todo momento.
+- Los enlaces no añaden productos automáticamente al carrito.
+
+PRUEBAS DEL PAQUETE:
+- Catálogo 200 recetas; 47 ingredientes.
+- Sintaxis de JavaScript / Python y servidor FastAPI.
+- Navegador Chromium en escritorio y móvil: recomendaciones y enlaces de receta.
+- Sin enlaces a portadas de tienda al comprar ingredientes.
+
+REGISTRO PÚBLICO:
+- Sigue dependiendo de revisión de privacidad y proveedores.
+- Mantén MIGA_LEGAL_REVIEWED=0 hasta terminarla; este paquete no la cambia.

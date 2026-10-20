@@ -1,0 +1,26 @@
+MIGA Ahorra · Actualización a 200 recetas + mejoras
+
+En el ZIP de actualización los archivos ya están en sus rutas de GitHub:
+- app.py (reemplazar)
+- data/recipes.json (reemplazar)
+- public/app.js (reemplazar)
+- public/index.html (reemplazar)
+- recipe_art.py (nuevo)
+- public/miga-improvements.css (nuevo)
+
+Abre GitHub, Add file → Upload files, y arrastra LOS ARCHIVOS DESCOMPRIMIDOS
+manteniendo las carpetas data y public. Comprueba que no acaban en una
+subcarpeta adicional. Confirma Commit changes una sola vez.
+Railway hará un nuevo despliegue. Conserva el volumen /data.
+
+Después prueba:
+1. Página principal con 200 recetas (50 por categoría).
+2. Receta 31 (debe mostrar ilustración), Ampliar foto (pantalla completa).
+3. Quitar un ingrediente: los pasos deben cambiar. Añadir extra: aparecen instrucciones.
+4. Temporizador personalizado (p. ej. 0 minutos / 15 segundos), pausar y reanudar.
+5. Tema claro/oscuro y filtros desde móvil.
+
+Los datos existentes no se borran; IDs 1-30 siguen iguales.
+El registro público sigue cerrado por defecto si la revisión legal está pendiente.
+Los precios, las calorías y los pasos modificados son orientativos.
+Las nuevas imágenes son ilustraciones, no fotografías individuales.

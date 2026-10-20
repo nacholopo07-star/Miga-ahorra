@@ -1,0 +1,35 @@
+MIGA AHORRA — REVISIÓN TÉCNICA Y PRIVACIDAD — 19/10/2026
+
+CAMBIOS LISTOS PARA GITHUB:
+  app.py            páginas legales detalladas; borrado automático de mensajes a 90 días;
+                    depuración diaria de sesiones/tokens; purga de cuentas no verificadas a 30 días;
+                    no permite iframes externos en CSP.
+  backup.py         copias externas cifradas conservadas; copias locales 14 archivos / 14 días.
+  requirements.txt  conserva dependencias de cifrado; no cambia instalación.
+  public/app.js     no inserta iframe de YouTube automáticamente; cambia texto de aviso de registro.
+  public/index.html elimina Google Fonts externos y avisa de la descarga voluntaria de OCR.
+
+EN APPS SCRIPT — ACCIÓN DEL TITULAR OBLIGATORIA:
+  Sustituir Código.gs por Google_Apps_Script_Copias_Actualizar.js.
+  Guardar, seleccionar configurarLimpiezaDiaria, ejecutar y autorizar.
+  Implementar > Gestionar implementaciones > Editar > nueva versión > Implementar.
+  Mantener la MISMA URL /exec de Railway; si se obtiene URL nueva, cambiar MIGA_DRIVE_BACKUP_URL.
+  Verificar nueva copia externa, restauración e independencia de Google Drive.
+
+PREVIO A ABRIR REGISTRO PUBLICO, SIGUE PENDIENTE:
+  - Verificar/aceptar los acuerdos de tratamiento (DPA) y transferencias de datos de
+    Railway, Brevo, Google/Drive/Apps Script para esta cuenta concreta.
+  - Confirmar ruta /data, región del volumen y que servicios desplegados usan TLS.
+  - Comprobar que Brevo entrega correo real de verificación y reset.
+  - Confirmar que la dirección de contacto responde y que el nombre legal es correcto.
+  - Confirmar aplicabilidad y suficiencia del aviso legal LSSI (sin divulgar datos
+    personales privados en ChatGPT) y revisar el texto definitivo con profesional si conviene.
+  - Confirmar que la copia cifrada puede restaurarse y conservar la clave fuera de Railway.
+  - Resolver adecuación de Google Drive personal como encargado del tratamiento de
+    datos de terceros; puede ser preferible almacenamiento de objeto con DPA explícito.
+  - No alterar MIGA_LEGAL_REVIEWED=0 hasta culminar estas comprobaciones y revisión jurídica.
+
+Si los términos del servicio de Google personal no autorizan el tratamiento bajo instrucciones
+como encargado, cambiar a otro servicio que sí ofrezca acuerdo de tratamiento.
+
+NOTA: una modificación técnica no constituye validación jurídica profesional.

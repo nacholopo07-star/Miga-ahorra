@@ -113,6 +113,35 @@ def db_setup():
                     ('Administrador MIGA',bootstrap_email,core.make_password(bootstrap_password),core.now()))
                 print('Cuenta inicial de administrador creada. Retira las dos variables de bootstrap de Railway.')
 
+# Retención definida y aplicada; las mismas reglas se explican en /privacidad.
+CONTACT_RETENTION_DAYS = 90
+PENDING_ACCOUNT_RETENTION_DAYS = 30
+
+
+def purge_expired_personal_data():
+    now_utc = dt.datetime.now(dt.timezone.utc)
+    contact_limit = (now_utc - dt.timedelta(days=CONTACT_RETENTION_DAYS)).isoformat(timespec='seconds')
+    pending_limit = (now_utc - dt.timedelta(days=PENDING_ACCOUNT_RETENTION_DAYS)).isoformat(timespec='seconds')
+    timestamp = int(now_utc.timestamp())
+    with conn() as db:
+        # Se eliminan mensajes antiguos, sesiones y tokens expirados.
+        db.execute('DELETE FROM contact_messages WHERE created_at < ?', (contact_limit,))
+        db.execute('DELETE FROM sessions WHERE expires <= ?', (timestamp,))
+        db.execute('DELETE FROM password_resets WHERE expires <= ?', (timestamp,))
+        db.execute('DELETE FROM email_verifications WHERE expires <= ?', (timestamp,))
+        db.execute('DELETE FROM rate_limits WHERE event_at < ?', (timestamp - 86400,))
+        # Las cuentas nunca verificadas se depuran tras 30 días.
+        db.execute("DELETE FROM users WHERE role='user' AND email_verified=0 AND joined_at < ?", (pending_limit,))
+
+
+def housekeeping_loop():
+    while True:
+        try:
+            purge_expired_personal_data()
+        except sqlite3.Error as exc:
+            print('ATENCIÓN: mantenimiento de privacidad pendiente:', type(exc).__name__)
+        time.sleep(86400)
+
 @asynccontextmanager
 async def lifespan(app):
     if PRODUCTION:
@@ -125,9 +154,11 @@ async def lifespan(app):
         if os.getenv('MIGA_PUBLIC_REGISTRATION') == '1' and not mail_ready():
             print('ATENCIÓN: configura Brevo API o SMTP; registro público bloqueado.')
     db_setup()
-    # Copia automática diaria local al volumen; configurar también copia externa independiente.
-    thread=threading.Thread(target=backup_loop,args=(DATABASE,),daemon=True)
-    thread.start()
+    # Primero depuramos datos expirados para que no entren en nuevas copias.
+    purge_expired_personal_data()
+    threading.Thread(target=housekeeping_loop,daemon=True).start()
+    # Copia automática diaria local y cifrada externa si Drive está configurado.
+    threading.Thread(target=backup_loop,args=(DATABASE,),daemon=True).start()
     yield
 
 app = FastAPI(title='MIGA Ahorra', docs_url=None, redoc_url=None, openapi_url=None, lifespan=lifespan)
@@ -162,9 +193,9 @@ async def security_headers(request:Request, call_next):
     resp.headers['Referrer-Policy']='strict-origin-when-cross-origin'
     resp.headers['Permissions-Policy']='camera=(self), microphone=(), geolocation=()'
     resp.headers['Content-Security-Policy']=("default-src 'self'; img-src 'self' https: data: blob:; "
-       "style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; "
+       "style-src 'self' 'unsafe-inline'; font-src 'self'; "
        "script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval'; worker-src 'self' blob: https://cdn.jsdelivr.net; "
-       "connect-src 'self' https://cdn.jsdelivr.net; frame-src https://www.youtube-nocookie.com; "
+       "connect-src 'self' https://cdn.jsdelivr.net; frame-src 'none'; "
        "media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'")
     if PRODUCTION: resp.headers['Strict-Transport-Security']='max-age=31536000; includeSubDomains'
     if request.url.path.startswith('/api/') or request.url.path in ('/recuperar','/verificar','/privacidad','/aviso-legal'):
@@ -571,27 +602,163 @@ def recipe_page(slug:str):
     if not recipe:err('Receta no encontrada.',404)
     return HTMLResponse(core.render_recipe_page(recipe))
 
+
 def legal_doc(which):
-    owner=html.escape(os.getenv('MIGA_LEGAL_NAME','[PENDIENTE: nombre o razón social]'))
-    ident=html.escape(os.getenv('MIGA_LEGAL_ID',''))
-    address=html.escape(os.getenv('MIGA_LEGAL_ADDRESS',''))
-    mail=html.escape(CONTACT_EMAIL or '[PENDIENTE: email verificado de contacto]')
+    """Información jurídica adaptada al funcionamiento actual de MIGA.
+
+    Es una propuesta pendiente de validar, no certifica conformidad normativa.
+    Se mantiene MIGA_LEGAL_REVIEWED=0 hasta resolver puntos pendientes.
+    """
+    owner=html.escape(os.getenv('MIGA_LEGAL_NAME','[PENDIENTE: nombre legal]'))
+    ident=html.escape(os.getenv('MIGA_LEGAL_ID','').strip())
+    address=html.escape(os.getenv('MIGA_LEGAL_ADDRESS','').strip())
+    mail=html.escape(CONTACT_EMAIL or '[PENDIENTE: correo de contacto]')
     complete=legal_complete()
-    banner='' if complete else '<div class="notice">BORRADOR: antes de habilitar registros debes adaptar este texto a tu actividad y revisar los proveedores y plazos reales.</div>'
+    updated=html.escape(os.getenv('MIGA_LEGAL_UPDATED','Pendiente de validación'))
+    banner='' if complete else ('<div class="notice" role="status"><b>DOCUMENTO EN REVISIÓN.</b> '
+      'No debe darse por aprobado para abrir registros. Revisa la conservación de mensajes, '
+      'el uso de Google Drive, los proveedores y los recursos externos antes de activar MIGA_LEGAL_REVIEWED.</div>')
     if which=='privacidad':
-        title='Política de privacidad';contents='''<p>Responsable: <b>'''+owner+'''</b>. Contacto: <b>'''+mail+'''</b>.</p>
-        <h2>Qué datos tratamos</h2><p>Nombre, correo, contraseña derivada mediante hash, favoritas, reseñas, menús, despensa, datos técnicos de sesión y consultas del formulario.</p>
-        <h2>Para qué</h2><p>Gestionar cuentas y funciones solicitadas, responder consultas, proteger el servicio y prevenir el abuso.</p>
-        <h2>Base jurídica</h2><p>Ejecución del servicio de cuenta solicitado; consentimiento para el contacto cuando se proporcione; intereses legítimos para seguridad sujetos a evaluación.</p>
-        <h2>Destinatarios y alojamiento</h2><p>En este proyecto el alojamiento previsto es Railway y el envío de mensajes puede realizarse mediante Brevo. Antes de publicar debes verificar la región del alojamiento, los contratos de encargo y las posibles transferencias internacionales.</p>
-        <h2>Verificación de identidad y correo</h2><p>Al registrarte te enviaremos un mensaje con un enlace de confirmación. Conservamos el estado de verificación y la aceptación de privacidad. Para el envío usamos el proveedor de correo configurado (por ejemplo Brevo).</p>
-        <h2>Conservación</h2><p>Los datos asociados a tu cuenta permanecen hasta que solicites eliminarla, salvo excepciones legalmente exigibles. Los plazos concretos de conservación de formularios, copias de seguridad y datos técnicos deben revisarse e informarse antes de lanzar el servicio.</p>
-        <h2>Derechos</h2><p>Puedes solicitar acceso, rectificación, supresión, oposición, limitación o portabilidad escribiendo al contacto indicado. En España puedes acudir a la AEPD.</p>
-        <h2>Servicios externos</h2><p>Esta web carga recursos de Google Fonts y puede cargar vídeos externos de YouTube y scripts para lectura de listas. Antes de activar servicios no necesarios o técnicas de seguimiento, revisa sus implicaciones y el consentimiento que corresponda.</p>
-        ''' + ('''<p><strong>Antes de publicar:</strong> revisa los proveedores, las transferencias, las bases jurídicas y los plazos de conservación. La mera activación de una variable no sustituye esa revisión.</p>''' if not complete else '') + ''''''
+        title='Política de privacidad'
+        contents=f"""
+        <h2>1. Responsable y contacto</h2>
+        <p>El responsable de los datos personales tratados en MIGA Ahorra es <strong>{owner}</strong>.
+        Para cuestiones de privacidad, ejercicio de derechos o consultas, escribe a
+        <a href="mailto:{mail}">{mail}</a>.</p>
+        <h2>2. Datos que utilizamos</h2>
+        <p>Al crear una cuenta tratamos el nombre que elijas, correo electrónico,
+        contraseña protegida mediante una función de derivación criptográfica (no la guardamos en texto legible),
+        fecha de registro, verificación de email y constancia de haber leído la información de privacidad.</p>
+        <p>Si utilizas las funciones de la web, se pueden guardar tus recetas favoritas,
+        recetas completadas, reseñas, valoraciones, personalizaciones, menús, presupuestos y datos de la despensa.
+        En las reseñas se muestran públicamente el nombre de usuario, la valoración,
+        el comentario y su fecha. Evita incluir datos personales delicados en comentarios.</p>
+        <p>Si nos escribes por el formulario de contacto, guardamos el nombre, correo, asunto, mensaje,
+        fecha y el estado de entrega. También procesamos datos técnicos necesarios para la seguridad,
+        prevención del abuso y gestión de sesiones, incluida la dirección IP asociada a los intentos.</p>
+        <h2>3. Finalidades y fundamento jurídico</h2>
+        <ul><li>Crear y mantener tu cuenta y proporcionarte las funciones que solicites:
+        ejecución de la relación de prestación gratuita del servicio (art. 6.1.b RGPD), cuando resulte aplicable.</li>
+        <li>Responder a consultas iniciadas por ti y mantener la seguridad, evitar fraudes y abusos:
+        interés legítimo del responsable (art. 6.1.f RGPD), sujeto a su evaluación.</li>
+        <li>Cumplir obligaciones legales que correspondan: art. 6.1.c RGPD, cuando sean aplicables.</li></ul>
+        <p>No utilizamos los correos de registro para enviar publicidad ni vendemos datos personales.
+        No realizamos decisiones automatizadas con efectos jurídicos sobre los usuarios.</p>
+        <h2>4. Datos obligatorios y correo</h2>
+        <p>Para crear una cuenta necesitas indicar nombre, correo válido y contraseña.
+        Sin ellos no podemos ofrecerte funciones personalizadas. Brevo se utiliza para enviar
+        correos relacionados con el servicio, como verificación de cuenta y recuperación de contraseña.
+        Los enlaces de verificación caducan a las 24 horas y los de recuperación de contraseña a los 30 minutos.</p>
+        <h2>5. Alojamiento, destinatarios y posibles transferencias</h2>
+        <p>La aplicación y la base de datos activa se alojan mediante <strong>Railway</strong>,
+        configurado inicialmente en la región europea de Ámsterdam (sujeto a la
+        configuración real que mantenga el titular). Ello no implica
+        que toda operación de soporte, los registros técnicos o los subencargados de Railway
+        permanezcan en la Unión Europea. Los envíos de correo transaccional los gestiona
+        <strong>Brevo</strong>. Las copias cifradas de la base de datos se conservan en
+        <strong>Google Drive</strong> mediante Google Apps Script, y requieren una clave separada
+        para descifrarlas.</p>
+        <p>Estos proveedores pueden tener subencargados o realizar accesos o transferencias
+        internacionales. Antes de abrir el registro debemos comprobar los acuerdos de tratamiento,
+        la información sobre países de destino y las garantías aplicables (como decisiones de adecuación
+        o cláusulas contractuales tipo, según el caso). No se afirma que todos los datos permanezcan en Europa.</p>
+        <h2>6. Conservación y eliminación</h2>
+        <p>Mantenemos los datos de cuenta y tus preferencias mientras conserves la cuenta,
+        salvo cuando exista una obligación legal de mantener cierta información.
+        Puedes exportar tus datos y eliminar tu cuenta desde el apartado de cuenta.
+        La eliminación borra los registros asociados de la base activa, pero los datos
+        pueden permanecer temporalmente en copias de seguridad anteriores.</p>
+        <p>El programa mantiene hasta <strong>14 copias locales</strong> y hasta
+        <strong>30 copias cifradas externas</strong>, con una limpieza automática de copias
+        de más de <strong>30 días</strong> en Google Drive una vez instalada y activada la
+        versión de mantenimiento de Apps Script. También se purgan los respaldos locales
+        de más de 14 días. Las copias retiradas de Google Drive pueden permanecer un tiempo
+        adicional en la papelera del proveedor, según su política de eliminación.
+        Puede realizarse una copia extra al reiniciarse el servicio;
+        estas copias no deben utilizarse para recuperar cuentas que hayan sido suprimidas,
+        salvo necesidad justificada y aplicando de nuevo las supresiones pertinentes.</p>
+        <p>Los mensajes enviados mediante el formulario de contacto se eliminan de la base activa
+        automáticamente cuando cumplen <strong>90 días</strong>. Las cuentas que no completan
+        la verificación del correo se eliminan tras <strong>30 días</strong>. Los tokens de
+        confirmación caducan a las 24 horas, los de recuperación a los 30 minutos y los
+        registros internos de limitación de intentos se limpian tras 24 horas.
+        Los plazos de los registros técnicos de Railway, Brevo y Google se rigen por sus
+        condiciones y se comprobarán como parte de la supervisión de proveedores.</p>
+        <h2>7. Cookies y almacenamiento del navegador</h2>
+        <p>Utilizamos una cookie técnica de sesión denominada <code>miga_session</code>
+        para iniciar sesión y mantener la seguridad. Es una cookie técnica necesaria. Si marcas «Recordarme», la cookie puede
+        durar hasta 30 días; en caso contrario es una cookie de sesión.
+        También usamos almacenamiento local del navegador para recordar determinadas
+        preferencias, menús y datos introducidos como invitado. Puedes eliminar esos datos
+        desde tu navegador; no todo ese contenido se sincroniza con una cuenta.</p>
+        <h2>8. Servicios externos y fotos de listas</h2>
+        <p>La web descarga recursos de jsDelivr cuando activas el
+        lector de fotografías de listas de la compra; ese reconocimiento se ejecuta en
+        el dispositivo del usuario. Los vídeos relacionados se ofrecen como enlaces externos a YouTube y no se
+        cargan reproductores incrustados de forma automática. La página no carga
+        tipografías remotas de Google Fonts. Si decides abrir enlaces externos o activar
+        el lector OCR, esos servicios pueden recibir información técnica, como la IP,
+        de acuerdo con sus políticas. El reconocimiento de la foto se realiza en tu
+        navegador; la foto no se sube a MIGA para su lectura.</p>
+        <h2>9. Tus derechos</h2>
+        <p>Puedes solicitar acceso, rectificación, supresión, oposición, limitación y
+        portabilidad cuando legalmente proceda, escribiendo a <a href="mailto:{mail}">{mail}</a>.
+        También puedes presentar una reclamación ante la
+        <a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer">Agencia Española de Protección de Datos</a>.
+        Para acceder, exportar o borrar los datos de la cuenta, hay también herramientas dentro de MIGA.
+        No es necesario facilitar datos adicionales que no sean razonablemente necesarios
+        para verificar tu identidad y atender la solicitud.</p>
+        <h2>10. Cambios en esta política</h2>
+        <p>La información está sujeta a revisión y confirmación de las condiciones de
+        los proveedores antes del lanzamiento público. Podemos actualizar esta política si cambian las funciones o los proveedores.
+        Publicaremos la fecha de revisión y comunicaremos los cambios relevantes cuando corresponda.</p>
+        """
     else:
-        title='Aviso legal';contents='<p>Titular: <b>'+owner+'</b></p>'+('<p>Identificación fiscal: <b>'+ident+'</b></p>' if ident else '')+('<p>Domicilio: <b>'+address+'</b></p>' if address else '')+'<p>Contacto: <b>'+mail+'</b></p><h2>Objeto</h2><p>MIGA Ahorra publica recetas e información orientativa sobre precios. No es una tienda ni vende productos.</p><h2>Fuentes y marcas</h2><p>Las marcas de terceros pertenecen a sus titulares. Los precios son orientativos y pueden no estar actualizados. MIGA no está afiliada a los supermercados mencionados.</p><h2>Uso del servicio</h2><p>Comprueba alérgenos, etiquetado, conservación y condiciones de las tiendas antes de comprar y cocinar.</p>'+ ('<p><strong>Texto pendiente de revisión jurídica antes de publicarse.</strong></p>' if not complete else '') +''
-    return HTMLResponse('''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex" ><title>'''+title+''' — MIGA Ahorra</title><style>body{font:17px/1.65 system-ui,sans-serif;max-width:800px;margin:3rem auto;padding:0 1rem;color:#193b31}a{color:#086b51}.notice{padding:1rem;background:#fff2cc;border-radius:12px}h1,h2{line-height:1.3}</style></head><body><a href="/">← Volver a MIGA</a><h1>'''+title+'''</h1>'''+banner+'''<p>Última revisión: '''+html.escape(os.getenv('MIGA_LEGAL_UPDATED','pendiente de confirmar'))+'''</p>'''+contents+'''<p><a href="/">Volver al inicio</a></p></body></html>''')
+        title='Aviso legal'
+        identification = ('<p><strong>Identificación fiscal:</strong> '+ident+'</p>') if ident else ''
+        domicile = ('<p><strong>Domicilio:</strong> '+address+'</p>') if address else ''
+        contents=f"""
+        <h2>1. Identificación</h2>
+        <p><strong>Web:</strong> MIGA Ahorra.</p>
+        <p><strong>Titular:</strong> {owner}, persona física.</p>
+        {identification}{domicile}
+        <p><strong>Contacto:</strong> <a href="mailto:{mail}">{mail}</a>.</p>
+        <p>MIGA es un proyecto gratuito de información y herramientas para organizar
+        comidas y compras. Actualmente no ofrece suscripciones ni venta de productos,
+        ni obtiene ingresos mediante anuncios en la web.</p>
+        <h2>2. Uso de MIGA</h2>
+        <p>Las recetas, calorías, precios y estimaciones son orientativos.
+        Los precios pueden cambiar y no constituyen una oferta de venta.
+        Comprueba siempre el etiquetado, alérgenos, conservación y disponibilidad
+        de los alimentos; MIGA no sustituye consejo médico o dietético profesional.</p>
+        <h2>3. Contenidos de usuarios</h2>
+        <p>Al publicar reseñas, evita información falsa, ilegal, ofensiva o datos
+        personales de terceros. El titular podrá retirar contenido que incumpla estas
+        normas. El usuario conserva los derechos que le correspondan sobre sus comentarios.</p>
+        <h2>4. Servicios y marcas ajenas</h2>
+        <p>MIGA puede mostrar enlaces a supermercados y contenidos de vídeo de terceros.
+        Las marcas pertenecen a sus respectivos titulares. Salvo indicación expresa,
+        MIGA no está afiliada a dichos comercios ni garantiza su información.</p>
+        <h2>5. Protección de datos y contacto</h2>
+        <p>Consulta la <a href="/privacidad">política de privacidad</a> para conocer
+        el tratamiento de datos personales y el ejercicio de derechos. Las consultas
+        generales pueden enviarse a <a href="mailto:{mail}">{mail}</a>.</p>
+        <h2>6. Información legal complementaria</h2>
+        <p>La aplicabilidad de las obligaciones de identificación de la LSSI debe
+        revisarse si el proyecto empieza a constituir una actividad económica,
+        incluso cuando el acceso siga siendo gratuito. En ese caso habrá que completar
+        todos los datos de identificación y contacto legalmente exigidos.</p>
+        """
+    return HTMLResponse(f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex"><title>{title} — MIGA Ahorra</title>
+    <style>body{{font:16px/1.75 system-ui,sans-serif;max-width:850px;margin:2.5rem auto;padding:0 1.1rem;color:#18372e;background:#f9fcfa}}
+    a{{color:#087451}}h1,h2{{line-height:1.3}}h1{{font-size:2rem}}h2{{margin-top:2rem;font-size:1.25rem}}
+    li{{margin:.55rem 0}}.notice{{padding:1rem 1.2rem;background:#fff0ce;border:1px solid #eed5a1;border-radius:12px}}
+    .meta{{color:#52665c}}code{{background:#ebf2ed;padding:.12rem .3rem;border-radius:4px}}</style></head>
+    <body><p><a href="/">← Volver a MIGA</a></p><h1>{title}</h1>{banner}
+    <p class="meta">Última revisión: {updated}</p>{contents}
+    <p><a href="/">Volver al inicio</a></p></body></html>""")
 
 @app.get('/privacidad')
 def privacidad():return legal_doc('privacidad')
@@ -607,5 +774,18 @@ def recuperar():return FileResponse(PUBLIC/'recuperar.html',media_type='text/htm
 
 @app.get('/')
 def homepage():return FileResponse(PUBLIC/'index.html',media_type='text/html')
+
+
+# Ilustraciones locales para las 170 recetas nuevas. No hay peticiones a terceros.
+@app.get('/imagenes/receta-{recipe_id:int}.svg', include_in_schema=False)
+def imagen_receta(recipe_id: int):
+    if recipe_id < 31 or recipe_id > 200:
+        raise HTTPException(404, 'Imagen no encontrada')
+    from recipe_art import recipe_image_by_id
+    image = recipe_image_by_id(recipe_id)
+    if image is None:
+        raise HTTPException(404, 'Imagen no encontrada')
+    return Response(image, media_type='image/svg+xml',
+                    headers={'Cache-Control':'public, max-age=86400'})
 
 app.mount('/',StaticFiles(directory=str(PUBLIC)),name='static')

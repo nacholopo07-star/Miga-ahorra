@@ -1,6 +1,6 @@
 # MIGA Ahorra — edición para GitHub con registro confirmado por email
 
-MIGA incluye las **30 recetas, 47 ingredientes, Mi nevera, listas de la compra, calendario semanal, Crea tu plato, contacto, reseñas, favoritos y administración**. Esta entrega añade **verificación por correo**, reenvío del enlace, recuperación de contraseña y **envío por API HTTPS de Brevo**, que funciona en los planes económicos de Railway. La URL visible sigue llamándose MIGA Ahorra, sin números de versión.
+MIGA incluye las **200 recetas, 47 ingredientes, Mi nevera, listas de la compra, calendario semanal, Crea tu plato, contacto, reseñas, favoritos y administración**. Esta entrega añade **verificación por correo**, reenvío del enlace, recuperación de contraseña y **envío por API HTTPS de Brevo**, que funciona en los planes económicos de Railway. La URL visible sigue llamándose MIGA Ahorra, sin números de versión.
 
 > **Estado de publicación:** el código está preparado para GitHub, pero NO se han contratado ni configurado el alojamiento, el correo real, los textos legales ni las copias externas. El registro se abre solo cuando tú habilitas las variables de producción, revisas la documentación legal y hay un proveedor de email configurado. Esta entrega no sustituye una auditoría de seguridad.
 
@@ -71,3 +71,39 @@ Esto permite enviar confirmaciones, enlaces para recuperar contraseñas y avisos
 5. Si no recibe el correo, entra en `/verificar` y solicita otro. La recuperación por contraseña desde `/recuperar` usa enlaces de 30 minutos.
 
 Las entregas reales de correo y el despliegue público no pueden comprobarse hasta configurar Railway y Brevo con tus cuentas. Mantén tu repositorio privado y revisa los cargos del alojamiento y servicios.
+
+
+## Versión 200 recetas · 20 de octubre de 2026
+
+Se han añadido **170 recetas nuevas** sin modificar IDs de las 30 anteriores.
+El catálogo contiene **50 normales, 50 saludables, 50 veganas y 50 sin gluten**.
+Los ingredientes tienen precios proporcionales estimados de la tabla actual; no son precios comprobados en tiempo real.
+Para las 170 recetas nuevas se muestran **ilustraciones SVG orientativas**, no fotografías: se sirven desde `/imagenes/receta-NNN.svg` en el propio servidor, sin servicios externos.
+
+### Mejoras visibles
+- Ampliación de fotografías e ilustraciones en visor a pantalla completa con botón de cierre, clic en fondo o tecla Escape.
+- Adaptación automática de instrucciones de cocina cuando se elimina, sustituye o añade un ingrediente, con advertencias de tiempos, alérgenos y temperatura.
+  Los pasos personalizados son orientativos y deben supervisarse, especialmente al añadir proteínas crudas.
+- Temporizador con opciones 5/10/15/20 minutos y tiempo propio en minutos/segundos, con pausar, reanudar y parar.
+- Tema claro/oscuro seleccionable; respeta preferencia del sistema si el usuario no ha elegido una.
+- Mostrar recetas por lotes de 24, con imágenes de carga diferida para mantener velocidad en móviles.
+
+### Actualizar el proyecto que ya está publicado
+1. Antes de actualizar, conserva los secretos **solo en Railway**, el volumen `/data` y las copias fuera del servidor.
+2. En GitHub sustituye en la raíz `app.py`, `data/recipes.json`, `public/app.js` y `public/index.html`; añade `recipe_art.py` y `public/miga-improvements.css`.
+3. Railway detecta los cambios. Si la web no despliega, mira Deploy Logs y comprueba los nombres/rutas.
+4. Prueba `/api/data` (200 recetas), `/imagenes/receta-031.svg`, los favoritos de una receta antigua, una personalización y el temporizador.
+5. No cambies `MIGA_LEGAL_REVIEWED` a `1` hasta completar realmente todas las verificaciones legales y de proveedores.
+
+*La actualización NO incluye claves de Brevo, contraseña de GitHub ni SQLite con datos reales.*
+
+
+## ¿Qué puedo cocinar hoy? y enlaces a fichas de ingredientes (20-10-2026)
+
+- En «Mi nevera» hay un panel de recomendaciones de las 200 recetas que calcula lo que puedes cocinar según las **cantidades disponibles** y el número de personas. Da prioridad a productos con fecha cercana; nunca propone consumir alimentos registrados como caducados.
+- Al faltar ingredientes muestra cantidades y accesos directos a sus **fichas individuales** en Consum o Mercadona. Para productos similares muestra «similar». No se enlaza a la portada del supermercado como sustituto de una ficha individual.
+- Incluidas 47 fichas de Consum y 19 de Mercadona, con 28 referencias de Mercadona todavía sin URL individual comprobable. Estos elementos aparecen como «sin ficha», sin inventar enlaces.
+- Los precios no se actualizan automáticamente a partir de las fichas: son estimaciones anteriores, sujetas a comprobación. Mercadona puede solicitar código postal o inicio de sesión para visualizar catálogo según zona.
+- Se recomienda mantener la revisión legal pendiente hasta finalizar la documentación y pruebas de registro.
+
+Consulta ACTUALIZAR_COCINAR_HOY_Y_ENLACES.txt para instalar solo cinco archivos.
