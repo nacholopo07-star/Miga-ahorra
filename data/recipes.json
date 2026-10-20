@@ -12,8 +12,8 @@
       "vegano",
       "sin lácteos"
     ],
-    "photo": "assets/foto-01.webp",
-    "fallback": "assets/receta-01.svg",
+    "photo": "assets/foto-01.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-01.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "garbanzos",
@@ -135,8 +135,8 @@
       "vegano",
       "de cuchara"
     ],
-    "photo": "assets/foto-02.webp",
-    "fallback": "assets/receta-02.svg",
+    "photo": "assets/foto-02.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-02.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "lentejas",
@@ -254,8 +254,8 @@
       "vegano",
       "para táper"
     ],
-    "photo": "assets/foto-03.webp",
-    "fallback": "assets/receta-03.svg",
+    "photo": "assets/foto-03.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-03.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "alubias",
@@ -368,8 +368,8 @@
       "vegano",
       "sin horno"
     ],
-    "photo": "assets/foto-04.webp",
-    "fallback": "assets/receta-04.svg",
+    "photo": "assets/foto-04.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-04.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "garbanzos",
@@ -481,8 +481,8 @@
       "vegano",
       "aprovechamiento"
     ],
-    "photo": "assets/foto-05.webp",
-    "fallback": "assets/receta-05.svg",
+    "photo": "assets/foto-05.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-05.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "arroz",
@@ -596,8 +596,8 @@
       "vegano",
       "de cuchara"
     ],
-    "photo": "assets/foto-06.webp",
-    "fallback": "assets/receta-06.svg",
+    "photo": "assets/foto-06.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-06.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "zanahoria",
@@ -707,8 +707,8 @@
       "vegetariano",
       "horno"
     ],
-    "photo": "assets/foto-07.webp",
-    "fallback": "assets/receta-07.svg",
+    "photo": "assets/foto-07.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-07.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "patata",
@@ -810,8 +810,8 @@
       "sin trigo",
       "clásico"
     ],
-    "photo": "assets/foto-08.webp",
-    "fallback": "assets/receta-08.svg",
+    "photo": "assets/foto-08.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-08.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "arroz",
@@ -922,8 +922,8 @@
       "proteico",
       "táper"
     ],
-    "photo": "assets/foto-09.webp",
-    "fallback": "assets/receta-09.svg",
+    "photo": "assets/foto-09.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-09.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pollo",
@@ -1036,8 +1036,8 @@
       "horno",
       "para compartir"
     ],
-    "photo": "assets/foto-10.webp",
-    "fallback": "assets/receta-10.svg",
+    "photo": "assets/foto-10.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-10.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "patata",
@@ -1145,8 +1145,8 @@
       "fría",
       "para táper"
     ],
-    "photo": "assets/foto-11.webp",
-    "fallback": "assets/receta-11.svg",
+    "photo": "assets/foto-11.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-11.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "arroz",
@@ -1257,8 +1257,8 @@
       "vegetariano",
       "rápida"
     ],
-    "photo": "assets/foto-12.webp",
-    "fallback": "assets/receta-12.svg",
+    "photo": "assets/foto-12.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-12.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "huevos",
@@ -1365,8 +1365,8 @@
       "alto en proteína",
       "para táper"
     ],
-    "photo": "assets/foto-13.webp",
-    "fallback": "assets/receta-13.svg",
+    "photo": "assets/foto-13.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-13.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pollo",
@@ -1475,8 +1475,8 @@
       "horno",
       "proteico"
     ],
-    "photo": "assets/foto-14.webp",
-    "fallback": "assets/receta-14.svg",
+    "photo": "assets/foto-14.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-14.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "merluza",
@@ -1584,8 +1584,8 @@
       "ligera",
       "vegetariana"
     ],
-    "photo": "assets/foto-15.webp",
-    "fallback": "assets/receta-15.svg",
+    "photo": "assets/foto-15.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-15.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "calabacin",
@@ -1694,8 +1694,8 @@
       "para táper",
       "vegetariana"
     ],
-    "photo": "assets/foto-16.webp",
-    "fallback": "assets/receta-16.svg",
+    "photo": "assets/foto-16.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-16.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "lentejas",
@@ -1809,8 +1809,8 @@
       "alto en proteína",
       "rápida"
     ],
-    "photo": "assets/foto-17.webp",
-    "fallback": "assets/receta-17.svg",
+    "photo": "assets/foto-17.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-17.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pavo",
@@ -1920,8 +1920,8 @@
       "desayuno",
       "sin horno"
     ],
-    "photo": "assets/foto-18.webp",
-    "fallback": "assets/receta-18.svg",
+    "photo": "assets/foto-18.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-18.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "yogur",
@@ -2017,8 +2017,8 @@
       "para táper",
       "clásico"
     ],
-    "photo": "assets/foto-19.webp",
-    "fallback": "assets/receta-19.svg",
+    "photo": "assets/foto-19.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-19.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pasta",
@@ -2128,8 +2128,8 @@
       "tradicional",
       "una olla"
     ],
-    "photo": "assets/foto-20.webp",
-    "fallback": "assets/receta-20.svg",
+    "photo": "assets/foto-20.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-20.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "arroz",
@@ -2243,8 +2243,8 @@
       "italiana",
       "rápida"
     ],
-    "photo": "assets/foto-21.webp",
-    "fallback": "assets/receta-21.svg",
+    "photo": "assets/foto-21.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-21.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pasta",
@@ -2347,8 +2347,8 @@
       "de cuchara",
       "clásico"
     ],
-    "photo": "assets/foto-22.webp",
-    "fallback": "assets/receta-22.svg",
+    "photo": "assets/foto-22.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-22.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "fideos",
@@ -2455,8 +2455,8 @@
       "rápida",
       "horno"
     ],
-    "photo": "assets/foto-23.webp",
-    "fallback": "assets/receta-23.svg",
+    "photo": "assets/foto-23.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-23.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "tortillas",
@@ -2560,8 +2560,8 @@
       "horno",
       "vegetariana"
     ],
-    "photo": "assets/foto-24.webp",
-    "fallback": "assets/receta-24.svg",
+    "photo": "assets/foto-24.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-24.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "patata",
@@ -2668,8 +2668,8 @@
       "carne",
       "económica"
     ],
-    "photo": "assets/foto-25.webp",
-    "fallback": "assets/icon.svg",
+    "photo": "assets/foto-25.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/icon.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "lomo_cerdo",
@@ -2779,8 +2779,8 @@
       "carne",
       "económica"
     ],
-    "photo": "assets/foto-26.webp",
-    "fallback": "assets/icon.svg",
+    "photo": "assets/foto-26.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/icon.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "picada_mixta",
@@ -2903,8 +2903,8 @@
       "carne",
       "económica"
     ],
-    "photo": "assets/foto-27.webp",
-    "fallback": "assets/icon.svg",
+    "photo": "assets/foto-27.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/icon.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pollo",
@@ -3026,8 +3026,8 @@
       "carne",
       "económica"
     ],
-    "photo": "assets/foto-28.webp",
-    "fallback": "assets/icon.svg",
+    "photo": "assets/foto-28.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/icon.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pavo",
@@ -3144,8 +3144,8 @@
       "carne",
       "económica"
     ],
-    "photo": "assets/foto-29.webp",
-    "fallback": "assets/icon.svg",
+    "photo": "assets/foto-29.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/icon.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pollo",
@@ -3264,8 +3264,8 @@
       "económica",
       "sin gluten, comprobar etiquetas"
     ],
-    "photo": "assets/foto-30.webp",
-    "fallback": "assets/receta-30.svg",
+    "photo": "assets/foto-30.webp?v=imagenes-reparadas-2",
+    "fallback": "assets/receta-30.svg?v=imagenes-reparadas-2",
     "ingredients": [
       {
         "id": "pollo",
@@ -3382,8 +3382,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-031.svg",
-    "fallback": "assets/receta-031.svg",
+    "photo": "assets/receta-031.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-031.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -3493,8 +3493,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-032.svg",
-    "fallback": "assets/receta-032.svg",
+    "photo": "assets/receta-032.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-032.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -3606,8 +3606,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-033.svg",
-    "fallback": "assets/receta-033.svg",
+    "photo": "assets/receta-033.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-033.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -3727,8 +3727,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-034.svg",
-    "fallback": "assets/receta-034.svg",
+    "photo": "assets/receta-034.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-034.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -3838,8 +3838,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-035.svg",
-    "fallback": "assets/receta-035.svg",
+    "photo": "assets/receta-035.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-035.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -3964,8 +3964,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-036.svg",
-    "fallback": "assets/receta-036.svg",
+    "photo": "assets/receta-036.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-036.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4075,8 +4075,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-037.svg",
-    "fallback": "assets/receta-037.svg",
+    "photo": "assets/receta-037.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-037.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4201,8 +4201,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-038.svg",
-    "fallback": "assets/receta-038.svg",
+    "photo": "assets/receta-038.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-038.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4322,8 +4322,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-039.svg",
-    "fallback": "assets/receta-039.svg",
+    "photo": "assets/receta-039.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-039.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4453,8 +4453,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-040.svg",
-    "fallback": "assets/receta-040.svg",
+    "photo": "assets/receta-040.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-040.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4593,8 +4593,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-041.svg",
-    "fallback": "assets/receta-041.svg",
+    "photo": "assets/receta-041.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-041.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4723,8 +4723,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-042.svg",
-    "fallback": "assets/receta-042.svg",
+    "photo": "assets/receta-042.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-042.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4863,8 +4863,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-043.svg",
-    "fallback": "assets/receta-043.svg",
+    "photo": "assets/receta-043.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-043.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -4992,8 +4992,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-044.svg",
-    "fallback": "assets/receta-044.svg",
+    "photo": "assets/receta-044.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-044.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5121,8 +5121,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-045.svg",
-    "fallback": "assets/receta-045.svg",
+    "photo": "assets/receta-045.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-045.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5234,8 +5234,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-046.svg",
-    "fallback": "assets/receta-046.svg",
+    "photo": "assets/receta-046.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-046.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5355,8 +5355,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-047.svg",
-    "fallback": "assets/receta-047.svg",
+    "photo": "assets/receta-047.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-047.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5468,8 +5468,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-048.svg",
-    "fallback": "assets/receta-048.svg",
+    "photo": "assets/receta-048.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-048.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5582,8 +5582,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-049.svg",
-    "fallback": "assets/receta-049.svg",
+    "photo": "assets/receta-049.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-049.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5681,8 +5681,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-050.svg",
-    "fallback": "assets/receta-050.svg",
+    "photo": "assets/receta-050.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-050.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5773,8 +5773,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-051.svg",
-    "fallback": "assets/receta-051.svg",
+    "photo": "assets/receta-051.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-051.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5868,8 +5868,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-052.svg",
-    "fallback": "assets/receta-052.svg",
+    "photo": "assets/receta-052.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-052.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -5972,8 +5972,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-053.svg",
-    "fallback": "assets/receta-053.svg",
+    "photo": "assets/receta-053.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-053.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6093,8 +6093,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-054.svg",
-    "fallback": "assets/receta-054.svg",
+    "photo": "assets/receta-054.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-054.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6199,8 +6199,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-055.svg",
-    "fallback": "assets/receta-055.svg",
+    "photo": "assets/receta-055.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-055.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6320,8 +6320,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-056.svg",
-    "fallback": "assets/receta-056.svg",
+    "photo": "assets/receta-056.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-056.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6441,8 +6441,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-057.svg",
-    "fallback": "assets/receta-057.svg",
+    "photo": "assets/receta-057.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-057.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6567,8 +6567,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-058.svg",
-    "fallback": "assets/receta-058.svg",
+    "photo": "assets/receta-058.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-058.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6681,8 +6681,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-059.svg",
-    "fallback": "assets/receta-059.svg",
+    "photo": "assets/receta-059.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-059.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6802,8 +6802,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-060.svg",
-    "fallback": "assets/receta-060.svg",
+    "photo": "assets/receta-060.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-060.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -6916,8 +6916,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-061.svg",
-    "fallback": "assets/receta-061.svg",
+    "photo": "assets/receta-061.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-061.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7030,8 +7030,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-062.svg",
-    "fallback": "assets/receta-062.svg",
+    "photo": "assets/receta-062.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-062.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7145,8 +7145,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-063.svg",
-    "fallback": "assets/receta-063.svg",
+    "photo": "assets/receta-063.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-063.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7255,8 +7255,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-064.svg",
-    "fallback": "assets/receta-064.svg",
+    "photo": "assets/receta-064.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-064.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7370,8 +7370,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-065.svg",
-    "fallback": "assets/receta-065.svg",
+    "photo": "assets/receta-065.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-065.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7491,8 +7491,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-066.svg",
-    "fallback": "assets/receta-066.svg",
+    "photo": "assets/receta-066.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-066.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7604,8 +7604,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-067.svg",
-    "fallback": "assets/receta-067.svg",
+    "photo": "assets/receta-067.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-067.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7717,8 +7717,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-068.svg",
-    "fallback": "assets/receta-068.svg",
+    "photo": "assets/receta-068.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-068.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7839,8 +7839,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-069.svg",
-    "fallback": "assets/receta-069.svg",
+    "photo": "assets/receta-069.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-069.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -7970,8 +7970,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-070.svg",
-    "fallback": "assets/receta-070.svg",
+    "photo": "assets/receta-070.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-070.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8110,8 +8110,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-071.svg",
-    "fallback": "assets/receta-071.svg",
+    "photo": "assets/receta-071.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-071.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8231,8 +8231,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-072.svg",
-    "fallback": "assets/receta-072.svg",
+    "photo": "assets/receta-072.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-072.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8352,8 +8352,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-073.svg",
-    "fallback": "assets/receta-073.svg",
+    "photo": "assets/receta-073.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-073.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8473,8 +8473,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-074.svg",
-    "fallback": "assets/receta-074.svg",
+    "photo": "assets/receta-074.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-074.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8587,8 +8587,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-075.svg",
-    "fallback": "assets/receta-075.svg",
+    "photo": "assets/receta-075.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-075.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8700,8 +8700,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-076.svg",
-    "fallback": "assets/receta-076.svg",
+    "photo": "assets/receta-076.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-076.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8801,8 +8801,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-077.svg",
-    "fallback": "assets/receta-077.svg",
+    "photo": "assets/receta-077.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-077.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -8902,8 +8902,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-078.svg",
-    "fallback": "assets/receta-078.svg",
+    "photo": "assets/receta-078.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-078.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9003,8 +9003,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-079.svg",
-    "fallback": "assets/receta-079.svg",
+    "photo": "assets/receta-079.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-079.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9113,8 +9113,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-080.svg",
-    "fallback": "assets/receta-080.svg",
+    "photo": "assets/receta-080.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-080.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9243,8 +9243,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-081.svg",
-    "fallback": "assets/receta-081.svg",
+    "photo": "assets/receta-081.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-081.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9373,8 +9373,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-082.svg",
-    "fallback": "assets/receta-082.svg",
+    "photo": "assets/receta-082.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-082.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9504,8 +9504,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-083.svg",
-    "fallback": "assets/receta-083.svg",
+    "photo": "assets/receta-083.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-083.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9635,8 +9635,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-084.svg",
-    "fallback": "assets/receta-084.svg",
+    "photo": "assets/receta-084.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-084.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9748,8 +9748,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-085.svg",
-    "fallback": "assets/receta-085.svg",
+    "photo": "assets/receta-085.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-085.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9854,8 +9854,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-086.svg",
-    "fallback": "assets/receta-086.svg",
+    "photo": "assets/receta-086.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-086.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -9967,8 +9967,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-087.svg",
-    "fallback": "assets/receta-087.svg",
+    "photo": "assets/receta-087.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-087.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10080,8 +10080,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-088.svg",
-    "fallback": "assets/receta-088.svg",
+    "photo": "assets/receta-088.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-088.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10195,8 +10195,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-089.svg",
-    "fallback": "assets/receta-089.svg",
+    "photo": "assets/receta-089.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-089.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10305,8 +10305,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-090.svg",
-    "fallback": "assets/receta-090.svg",
+    "photo": "assets/receta-090.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-090.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10415,8 +10415,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-091.svg",
-    "fallback": "assets/receta-091.svg",
+    "photo": "assets/receta-091.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-091.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10525,8 +10525,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-092.svg",
-    "fallback": "assets/receta-092.svg",
+    "photo": "assets/receta-092.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-092.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10638,8 +10638,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-093.svg",
-    "fallback": "assets/receta-093.svg",
+    "photo": "assets/receta-093.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-093.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10742,8 +10742,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-094.svg",
-    "fallback": "assets/receta-094.svg",
+    "photo": "assets/receta-094.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-094.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10836,8 +10836,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-095.svg",
-    "fallback": "assets/receta-095.svg",
+    "photo": "assets/receta-095.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-095.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -10949,8 +10949,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-096.svg",
-    "fallback": "assets/receta-096.svg",
+    "photo": "assets/receta-096.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-096.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11062,8 +11062,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-097.svg",
-    "fallback": "assets/receta-097.svg",
+    "photo": "assets/receta-097.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-097.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11175,8 +11175,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-098.svg",
-    "fallback": "assets/receta-098.svg",
+    "photo": "assets/receta-098.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-098.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11296,8 +11296,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-099.svg",
-    "fallback": "assets/receta-099.svg",
+    "photo": "assets/receta-099.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-099.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11417,8 +11417,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-100.svg",
-    "fallback": "assets/receta-100.svg",
+    "photo": "assets/receta-100.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-100.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11538,8 +11538,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-101.svg",
-    "fallback": "assets/receta-101.svg",
+    "photo": "assets/receta-101.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-101.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11659,8 +11659,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-102.svg",
-    "fallback": "assets/receta-102.svg",
+    "photo": "assets/receta-102.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-102.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11765,8 +11765,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-103.svg",
-    "fallback": "assets/receta-103.svg",
+    "photo": "assets/receta-103.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-103.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11870,8 +11870,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-104.svg",
-    "fallback": "assets/receta-104.svg",
+    "photo": "assets/receta-104.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-104.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -11976,8 +11976,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-105.svg",
-    "fallback": "assets/receta-105.svg",
+    "photo": "assets/receta-105.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-105.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12086,8 +12086,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-106.svg",
-    "fallback": "assets/receta-106.svg",
+    "photo": "assets/receta-106.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-106.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12176,8 +12176,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-107.svg",
-    "fallback": "assets/receta-107.svg",
+    "photo": "assets/receta-107.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-107.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12266,8 +12266,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-108.svg",
-    "fallback": "assets/receta-108.svg",
+    "photo": "assets/receta-108.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-108.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12380,8 +12380,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-109.svg",
-    "fallback": "assets/receta-109.svg",
+    "photo": "assets/receta-109.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-109.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12494,8 +12494,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-110.svg",
-    "fallback": "assets/receta-110.svg",
+    "photo": "assets/receta-110.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-110.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12592,8 +12592,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-111.svg",
-    "fallback": "assets/receta-111.svg",
+    "photo": "assets/receta-111.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-111.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12690,8 +12690,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-112.svg",
-    "fallback": "assets/receta-112.svg",
+    "photo": "assets/receta-112.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-112.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12801,8 +12801,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-113.svg",
-    "fallback": "assets/receta-113.svg",
+    "photo": "assets/receta-113.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-113.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -12934,8 +12934,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-114.svg",
-    "fallback": "assets/receta-114.svg",
+    "photo": "assets/receta-114.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-114.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13055,8 +13055,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-115.svg",
-    "fallback": "assets/receta-115.svg",
+    "photo": "assets/receta-115.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-115.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13174,8 +13174,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-116.svg",
-    "fallback": "assets/receta-116.svg",
+    "photo": "assets/receta-116.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-116.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13287,8 +13287,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-117.svg",
-    "fallback": "assets/receta-117.svg",
+    "photo": "assets/receta-117.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-117.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13408,8 +13408,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-118.svg",
-    "fallback": "assets/receta-118.svg",
+    "photo": "assets/receta-118.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-118.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13509,8 +13509,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-119.svg",
-    "fallback": "assets/receta-119.svg",
+    "photo": "assets/receta-119.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-119.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13619,8 +13619,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-120.svg",
-    "fallback": "assets/receta-120.svg",
+    "photo": "assets/receta-120.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-120.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13720,8 +13720,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-121.svg",
-    "fallback": "assets/receta-121.svg",
+    "photo": "assets/receta-121.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-121.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13821,8 +13821,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-122.svg",
-    "fallback": "assets/receta-122.svg",
+    "photo": "assets/receta-122.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-122.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -13927,8 +13927,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-123.svg",
-    "fallback": "assets/receta-123.svg",
+    "photo": "assets/receta-123.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-123.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14031,8 +14031,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-124.svg",
-    "fallback": "assets/receta-124.svg",
+    "photo": "assets/receta-124.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-124.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14145,8 +14145,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-125.svg",
-    "fallback": "assets/receta-125.svg",
+    "photo": "assets/receta-125.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-125.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14266,8 +14266,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-126.svg",
-    "fallback": "assets/receta-126.svg",
+    "photo": "assets/receta-126.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-126.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14373,8 +14373,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-127.svg",
-    "fallback": "assets/receta-127.svg",
+    "photo": "assets/receta-127.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-127.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14483,8 +14483,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-128.svg",
-    "fallback": "assets/receta-128.svg",
+    "photo": "assets/receta-128.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-128.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14593,8 +14593,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-129.svg",
-    "fallback": "assets/receta-129.svg",
+    "photo": "assets/receta-129.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-129.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14708,8 +14708,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-130.svg",
-    "fallback": "assets/receta-130.svg",
+    "photo": "assets/receta-130.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-130.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14848,8 +14848,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-131.svg",
-    "fallback": "assets/receta-131.svg",
+    "photo": "assets/receta-131.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-131.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -14972,8 +14972,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-132.svg",
-    "fallback": "assets/receta-132.svg",
+    "photo": "assets/receta-132.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-132.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15105,8 +15105,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-133.svg",
-    "fallback": "assets/receta-133.svg",
+    "photo": "assets/receta-133.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-133.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15238,8 +15238,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-134.svg",
-    "fallback": "assets/receta-134.svg",
+    "photo": "assets/receta-134.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-134.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15357,8 +15357,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-135.svg",
-    "fallback": "assets/receta-135.svg",
+    "photo": "assets/receta-135.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-135.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15471,8 +15471,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-136.svg",
-    "fallback": "assets/receta-136.svg",
+    "photo": "assets/receta-136.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-136.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15590,8 +15590,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-137.svg",
-    "fallback": "assets/receta-137.svg",
+    "photo": "assets/receta-137.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-137.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15703,8 +15703,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-138.svg",
-    "fallback": "assets/receta-138.svg",
+    "photo": "assets/receta-138.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-138.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15817,8 +15817,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-139.svg",
-    "fallback": "assets/receta-139.svg",
+    "photo": "assets/receta-139.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-139.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -15930,8 +15930,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-140.svg",
-    "fallback": "assets/receta-140.svg",
+    "photo": "assets/receta-140.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-140.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16036,8 +16036,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-141.svg",
-    "fallback": "assets/receta-141.svg",
+    "photo": "assets/receta-141.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-141.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16140,8 +16140,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-142.svg",
-    "fallback": "assets/receta-142.svg",
+    "photo": "assets/receta-142.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-142.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16253,8 +16253,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-143.svg",
-    "fallback": "assets/receta-143.svg",
+    "photo": "assets/receta-143.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-143.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16366,8 +16366,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-144.svg",
-    "fallback": "assets/receta-144.svg",
+    "photo": "assets/receta-144.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-144.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16479,8 +16479,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-145.svg",
-    "fallback": "assets/receta-145.svg",
+    "photo": "assets/receta-145.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-145.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16600,8 +16600,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-146.svg",
-    "fallback": "assets/receta-146.svg",
+    "photo": "assets/receta-146.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-146.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16740,8 +16740,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-147.svg",
-    "fallback": "assets/receta-147.svg",
+    "photo": "assets/receta-147.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-147.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16861,8 +16861,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-148.svg",
-    "fallback": "assets/receta-148.svg",
+    "photo": "assets/receta-148.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-148.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -16992,8 +16992,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-149.svg",
-    "fallback": "assets/receta-149.svg",
+    "photo": "assets/receta-149.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-149.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17115,8 +17115,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-150.svg",
-    "fallback": "assets/receta-150.svg",
+    "photo": "assets/receta-150.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-150.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17228,8 +17228,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-151.svg",
-    "fallback": "assets/receta-151.svg",
+    "photo": "assets/receta-151.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-151.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17346,8 +17346,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-152.svg",
-    "fallback": "assets/receta-152.svg",
+    "photo": "assets/receta-152.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-152.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17452,8 +17452,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-153.svg",
-    "fallback": "assets/receta-153.svg",
+    "photo": "assets/receta-153.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-153.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17558,8 +17558,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-154.svg",
-    "fallback": "assets/receta-154.svg",
+    "photo": "assets/receta-154.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-154.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17639,8 +17639,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-155.svg",
-    "fallback": "assets/receta-155.svg",
+    "photo": "assets/receta-155.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-155.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17745,8 +17745,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-156.svg",
-    "fallback": "assets/receta-156.svg",
+    "photo": "assets/receta-156.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-156.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17864,8 +17864,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-157.svg",
-    "fallback": "assets/receta-157.svg",
+    "photo": "assets/receta-157.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-157.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -17977,8 +17977,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-158.svg",
-    "fallback": "assets/receta-158.svg",
+    "photo": "assets/receta-158.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-158.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18090,8 +18090,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-159.svg",
-    "fallback": "assets/receta-159.svg",
+    "photo": "assets/receta-159.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-159.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18203,8 +18203,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-160.svg",
-    "fallback": "assets/receta-160.svg",
+    "photo": "assets/receta-160.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-160.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18316,8 +18316,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-161.svg",
-    "fallback": "assets/receta-161.svg",
+    "photo": "assets/receta-161.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-161.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18435,8 +18435,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-162.svg",
-    "fallback": "assets/receta-162.svg",
+    "photo": "assets/receta-162.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-162.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18548,8 +18548,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-163.svg",
-    "fallback": "assets/receta-163.svg",
+    "photo": "assets/receta-163.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-163.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18661,8 +18661,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-164.svg",
-    "fallback": "assets/receta-164.svg",
+    "photo": "assets/receta-164.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-164.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18782,8 +18782,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-165.svg",
-    "fallback": "assets/receta-165.svg",
+    "photo": "assets/receta-165.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-165.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -18895,8 +18895,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-166.svg",
-    "fallback": "assets/receta-166.svg",
+    "photo": "assets/receta-166.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-166.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19016,8 +19016,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-167.svg",
-    "fallback": "assets/receta-167.svg",
+    "photo": "assets/receta-167.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-167.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19129,8 +19129,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-168.svg",
-    "fallback": "assets/receta-168.svg",
+    "photo": "assets/receta-168.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-168.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19242,8 +19242,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-169.svg",
-    "fallback": "assets/receta-169.svg",
+    "photo": "assets/receta-169.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-169.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19355,8 +19355,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-170.svg",
-    "fallback": "assets/receta-170.svg",
+    "photo": "assets/receta-170.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-170.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19466,8 +19466,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-171.svg",
-    "fallback": "assets/receta-171.svg",
+    "photo": "assets/receta-171.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-171.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19567,8 +19567,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-172.svg",
-    "fallback": "assets/receta-172.svg",
+    "photo": "assets/receta-172.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-172.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19667,8 +19667,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-173.svg",
-    "fallback": "assets/receta-173.svg",
+    "photo": "assets/receta-173.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-173.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19768,8 +19768,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-174.svg",
-    "fallback": "assets/receta-174.svg",
+    "photo": "assets/receta-174.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-174.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19863,8 +19863,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-175.svg",
-    "fallback": "assets/receta-175.svg",
+    "photo": "assets/receta-175.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-175.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -19964,8 +19964,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-176.svg",
-    "fallback": "assets/receta-176.svg",
+    "photo": "assets/receta-176.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-176.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20074,8 +20074,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-177.svg",
-    "fallback": "assets/receta-177.svg",
+    "photo": "assets/receta-177.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-177.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20189,8 +20189,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-178.svg",
-    "fallback": "assets/receta-178.svg",
+    "photo": "assets/receta-178.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-178.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20299,8 +20299,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-179.svg",
-    "fallback": "assets/receta-179.svg",
+    "photo": "assets/receta-179.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-179.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20409,8 +20409,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-180.svg",
-    "fallback": "assets/receta-180.svg",
+    "photo": "assets/receta-180.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-180.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20511,8 +20511,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-181.svg",
-    "fallback": "assets/receta-181.svg",
+    "photo": "assets/receta-181.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-181.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20616,8 +20616,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-182.svg",
-    "fallback": "assets/receta-182.svg",
+    "photo": "assets/receta-182.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-182.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20728,8 +20728,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-183.svg",
-    "fallback": "assets/receta-183.svg",
+    "photo": "assets/receta-183.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-183.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20840,8 +20840,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-184.svg",
-    "fallback": "assets/receta-184.svg",
+    "photo": "assets/receta-184.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-184.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -20953,8 +20953,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-185.svg",
-    "fallback": "assets/receta-185.svg",
+    "photo": "assets/receta-185.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-185.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21064,8 +21064,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-186.svg",
-    "fallback": "assets/receta-186.svg",
+    "photo": "assets/receta-186.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-186.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21169,8 +21169,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-187.svg",
-    "fallback": "assets/receta-187.svg",
+    "photo": "assets/receta-187.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-187.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21282,8 +21282,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-188.svg",
-    "fallback": "assets/receta-188.svg",
+    "photo": "assets/receta-188.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-188.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21395,8 +21395,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-189.svg",
-    "fallback": "assets/receta-189.svg",
+    "photo": "assets/receta-189.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-189.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21517,8 +21517,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-190.svg",
-    "fallback": "assets/receta-190.svg",
+    "photo": "assets/receta-190.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-190.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21648,8 +21648,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-191.svg",
-    "fallback": "assets/receta-191.svg",
+    "photo": "assets/receta-191.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-191.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21779,8 +21779,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-192.svg",
-    "fallback": "assets/receta-192.svg",
+    "photo": "assets/receta-192.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-192.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -21909,8 +21909,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-193.svg",
-    "fallback": "assets/receta-193.svg",
+    "photo": "assets/receta-193.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-193.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22030,8 +22030,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-194.svg",
-    "fallback": "assets/receta-194.svg",
+    "photo": "assets/receta-194.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-194.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22141,8 +22141,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-195.svg",
-    "fallback": "assets/receta-195.svg",
+    "photo": "assets/receta-195.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-195.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22254,8 +22254,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-196.svg",
-    "fallback": "assets/receta-196.svg",
+    "photo": "assets/receta-196.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-196.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22367,8 +22367,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-197.svg",
-    "fallback": "assets/receta-197.svg",
+    "photo": "assets/receta-197.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-197.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22473,8 +22473,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-198.svg",
-    "fallback": "assets/receta-198.svg",
+    "photo": "assets/receta-198.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-198.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22586,8 +22586,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-199.svg",
-    "fallback": "assets/receta-199.svg",
+    "photo": "assets/receta-199.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-199.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [
@@ -22667,8 +22667,8 @@
       "económica",
       "casera"
     ],
-    "photo": "assets/receta-200.svg",
-    "fallback": "assets/receta-200.svg",
+    "photo": "assets/receta-200.svg?v=imagenes-reparadas-2",
+    "fallback": "imagenes/receta-200.svg?v=imagenes-reparadas-2",
     "photoCredit": "MIGA · ilustración propia de la receta",
     "photoSource": "",
     "ingredients": [

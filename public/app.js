@@ -54,8 +54,26 @@ const shown=rs.slice(0,state.visibleCount);const more=el('showMoreRecipes');if(m
 el('recipeGrid').innerHTML=shown.map((r,index)=>{const cat=cats[r.category],rating=state.ratings[r.id];return `<article class="recipe-card" data-id="${r.id}"><button class="favorite ${state.favorites.has(r.id)?'saved':''}" data-favorite="${r.id}" aria-label="${state.favorites.has(r.id)?'Quitar de':'Añadir a'} favoritos">${state.favorites.has(r.id)?'♥':'♡'}</button><button class="card-image" data-open="${r.id}" aria-label="Abrir ${escapeHtml(r.title)}"><img loading="${index<6?'eager':'lazy'}" decoding="async" src="${escapeHtml(r.photo)}" data-fallback="${escapeHtml(r.fallback)}" alt="Imagen orientativa de ${escapeHtml(r.title)}"><span class="card-tag ${cat.class}">${cat.emoji} ${cat.name}</span></button><div class="card-body"><div class="card-meta"><span>◷ ${r.minutes} min</span><span>${rating?'★ '+rating.average+' ('+rating.count+')':'☆ Sin reseñas'}</span></div><button class="card-title" data-open="${r.id}">${escapeHtml(r.title)}</button><p>${escapeHtml(r.description)}</p><div class="card-bottom"><div><small>COSTE / RACIÓN · CONSUM <span>aprox.</span></small><strong>${euro(cost(r)/r.servings)}</strong></div><button class="card-arrow" data-open="${r.id}" aria-label="Ver receta">↗</button></div></div></article>`}).join('');setupImageFallback(el('recipeGrid'))}
 function setupImageFallback(root){
   root.querySelectorAll('img[data-fallback]').forEach(img=>{
-    const fallback=()=>{if(!img.src.endsWith('/'+img.dataset.fallback))img.src=img.dataset.fallback};
-    img.addEventListener('error',fallback,{once:true});
+    if(img.dataset.fallbackConfigured==='1')return;
+    img.dataset.fallbackConfigured='1';
+    const tried=new Set();
+    if(img.currentSrc||img.src)tried.add(new URL(img.currentSrc||img.src,document.baseURI).href);
+    const placeholder='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550"><rect width="800" height="550" fill="#e5eee1"/><circle cx="400" cy="255" r="160" fill="#fff"/><circle cx="400" cy="255" r="132" fill="#d8e7ca"/><text x="400" y="465" fill="#23533b" font-family="Arial,sans-serif" font-size="28" text-anchor="middle">Imagen pendiente · MIGA</text></svg>';
+    const candidates=[img.dataset.fallback,'/assets/icon.svg','data:image/svg+xml;charset=utf-8,'+encodeURIComponent(placeholder)];
+    const fallback=()=>{
+      while(candidates.length){
+        const next=candidates.shift();
+        const url=new URL(next,document.baseURI).href;
+        if(!tried.has(url)){
+          tried.add(url);
+          img.src=url;
+          return;
+        }
+      }
+      img.removeAttribute('src');
+      img.alt='Imagen no disponible';
+    };
+    img.addEventListener('error',fallback);
     if(img.complete&&img.naturalWidth===0)fallback();
   });
 }

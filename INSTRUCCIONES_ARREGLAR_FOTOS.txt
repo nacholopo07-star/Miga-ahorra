@@ -1,0 +1,23 @@
+MIGA Ahorra | REPARAR IMAGENES EN RAILWAY
+
+La correccion incluye solo 5 archivos:
+- Dockerfile (copia recipe_art.py al contenedor; ese archivo YA esta en tu GitHub)
+- data/recipes.json (fuente con version para evitar cache 404 y ruta alternativa para 170 ilustraciones)
+- public/app.js (recuperacion automatica cuando falla la imagen principal)
+- public/redesign.js (arregla la foto de la receta destacada)
+- public/index.html (fuerza al navegador a cargar el JavaScript corregido)
+
+COMO SUBIRLOS
+1. Descarga y descomprime este ZIP en tu equipo.
+2. Ve a tu repositorio en GitHub, carpeta principal (raiz).
+3. Add file > Upload files; arrastra Dockerfile y las carpetas data y public DESCOMPRIMIDOS.
+4. Verifica que sean rutas Dockerfile, data/recipes.json,
+   public/app.js, public/redesign.js y public/index.html. No debe aparecer una carpeta superior extra.
+5. Commit changes. No toques las variables ni el volumen /data de Railway.
+6. Espera al nuevo despliegue. Actualiza con Ctrl+F5.
+7. Visita https://miga-ahorra-production.up.railway.app/assets/receta-031.svg
+   y https://miga-ahorra-production.up.railway.app/imagenes/receta-031.svg.
+   Ambas deberian mostrar una ilustracion si Railway esta desplegado.
+
+Nota: las 170 imagenes nuevas son ILUSTRACIONES, no fotografias reales.
+No se cambian claves, cuentas, legal o copias de seguridad.

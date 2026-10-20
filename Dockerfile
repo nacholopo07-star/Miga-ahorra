@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends gosu && rm -rf 
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY app.py backup.py legacy_core.py ./
+COPY app.py backup.py legacy_core.py recipe_art.py ./
 COPY data ./data
 COPY public ./public
 RUN mkdir -p /data && useradd --uid 10001 --no-create-home miga && chown -R miga:miga /app /data

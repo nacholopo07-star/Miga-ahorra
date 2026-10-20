@@ -42,7 +42,8 @@ function renderFeaturedRecipe(){
  const today=new Date();const k=Math.floor(Date.UTC(today.getFullYear(),today.getMonth(),today.getDate())/86400000);
  const r=state.recipes[((k%state.recipes.length)+state.recipes.length)%state.recipes.length];
  const desc=escapeHtml(r.description),name=escapeHtml(r.title);
- root.innerHTML=`<div class="featured-info"><span class="eyebrow">✳ UNA IDEA PARA HOY</span><h2>${name}</h2><p>${desc}</p><div class="featured-metrics"><span>⏱ ${r.minutes} min</span><span>👥 ${r.servings} raciones</span><span>🛒 Desde ${euro(cost(r,'consum')/r.servings)} por ración*</span></div><div class="featured-actions"><button class="button primary" type="button" id="featuredCook">Ver receta →</button><button class="button subdued" type="button" id="featuredShare">↗ Compartir</button></div><small>* Coste orientativo de ingredientes consumidos, no de envases.</small></div><img class="featured-photo" alt="Fotografía ilustrativa de ${name}" loading="lazy" src="${escapeHtml(r.photo)}">`;
+ root.innerHTML=`<div class="featured-info"><span class="eyebrow">✳ UNA IDEA PARA HOY</span><h2>${name}</h2><p>${desc}</p><div class="featured-metrics"><span>⏱ ${r.minutes} min</span><span>👥 ${r.servings} raciones</span><span>🛒 Desde ${euro(cost(r,'consum')/r.servings)} por ración*</span></div><div class="featured-actions"><button class="button primary" type="button" id="featuredCook">Ver receta →</button><button class="button subdued" type="button" id="featuredShare">↗ Compartir</button></div><small>* Coste orientativo de ingredientes consumidos, no de envases.</small></div><img class="featured-photo" alt="Fotografía ilustrativa de ${name}" loading="lazy" src="${escapeHtml(r.photo)}" data-fallback="${escapeHtml(r.fallback)}">`;
+ setupImageFallback(root);
  document.getElementById('featuredCook').addEventListener('click',()=>openRecipe(r.id));
  document.getElementById('featuredShare').addEventListener('click',()=>shareMigaRecipe(r));
 }
